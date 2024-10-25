@@ -1,0 +1,76 @@
+{
+    "name": "South Carolina Mustard BBQ Sauce",
+    "category": "sauces",
+    "locale": "en",
+    "images": [
+        "https://selfproclaimedfoodie.com/wp-content/uploads/mustard-bbq-sauce-3.jpg"
+    ],
+    "links": [
+        "https://youtu.be/z6EqVXl6geM"
+    ],
+    "tags": [
+        "savory",
+        "vegetarian",
+        "american"
+    ],
+    "prep_time": 5,
+    "cook_time": 5,
+    "servings": 12,
+    "ingredients": [
+        {
+            "quantity": 1.5,
+            "unit": "cup",
+            "name": "yellow mustard",
+            "notes": "prepared"
+        },
+        {
+            "quantity": 0.5,
+            "unit": "cup",
+            "name": "apple cider vinegar"
+        },
+        {
+            "quantity": 0.5,
+            "unit": "cup",
+            "name": "honey"
+        },
+        {
+            "quantity": 1,
+            "unit": "tablespoon",
+            "name": "brown sugar"
+        },
+        {
+            "quantity": 1,
+            "unit": "tablespoon",
+            "name": "ketchup"
+        },
+        {
+            "quantity": 1,
+            "unit": "teaspoon",
+            "name": "black pepper"
+        },
+        {
+            "quantity": 1,
+            "unit": "teaspoon",
+            "name": "white pepper"
+        },
+        {
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "name": "kosher salt"
+        },
+        {
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "name": "garlic pepper"
+        },
+        {
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "name": "cayenne pepper"
+        }
+    ],
+    "instructions": [
+        "Mix all ingredients well.",
+        "Bring to boil and let simmer until desired thickness is reached."
+    ]
+}

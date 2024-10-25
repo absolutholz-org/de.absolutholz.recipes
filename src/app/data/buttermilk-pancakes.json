@@ -1,0 +1,73 @@
+{
+    "name": "Buttermilk Pancakes",
+    "category": "sweets",
+    "locale": "en",
+    "images": [
+        "https://www.allrecipes.com/thmb/X2cMaVGyK-DIz1B7DRoLZZujuo0=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/24530-ButtermilkPancakes-II-mfs-4X3-3385-b9e08648074145d18c538731c2be4215.jpg"
+    ],
+    "links": [
+        "https://youtu.be/BPl7D20F2mE"
+    ],
+    "tags": [
+        "breakfast",
+        "sweet",
+        "american",
+        "vegetarian"
+    ],
+    "prep_time": 5,
+    "cook_time": 35,
+    "servings": 6,
+    "ingredients": [
+        {
+            "quantity": 2.5,
+            "unit": "cup",
+            "name": "flour"
+        },
+        {
+            "quantity": 3,
+            "unit": "tablespoon",
+            "name": "sugar"
+        },
+        {
+            "quantity": 2,
+            "unit": "teaspoon",
+            "name": "salt"
+        },
+        {
+            "quantity": 1,
+            "unit": "teaspoon",
+            "name": "baking powder"
+        },
+        {
+            "quantity": 1,
+            "unit": "teaspoon",
+            "name": "baking soda"
+        },
+        {
+            "quantity": 2.5,
+            "unit": "cup",
+            "name": "Buttermilk",
+            "notes": "or 2 - 3 tablespoon of vinegar to whole milk"
+        },
+        {
+            "quantity": 1,
+            "unit": "stick",
+            "name": "butter",
+            "notes": "unsalted, melted"
+        },
+        {
+            "quantity": 2,
+            "name": "egg",
+            "notes": "separate yolks and whites"
+        }
+    ],
+    "instructions": [
+        "In a large bowl, add the flour, sugar, salt, baking powder, and baking soda and whisk to combine.",
+        "In a medium bowl or liquid measuring cup, add the buttermilk, melted butter, and egg yolks and whisk to combine.",
+        "Add the buttermilk mixture to the dry ingredients and gently fold with a rubber spatula until just combined.",
+        "Add the egg whites and fold until just combined. Be sure not to overmix. Some lumps are okay.",
+        "Let the batter rest for 15-30 minutes at room temperature.",
+        "Add butter to a cast iron skillet and heat over medium low heat. Once the butter has melted and is bubbling, reduce the heat to medium-low and add ⅓ cup of batter to the pan.",
+        "Cook for 2-3 minutes, until bubbles start to appear on the surface. If adding any toppings like chocolate chips or blueberries, sprinkle over the pancake. Flip the pancake over and cook for another 1-2 minutes, until golden brown. Repeat with the remaining batter."
+    ]
+}

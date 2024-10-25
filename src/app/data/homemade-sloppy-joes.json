@@ -1,0 +1,92 @@
+{
+    "name": "Homemade Sloppy Joes",
+    "category": "sandwiches",
+    "locale": "en",
+    "images": [
+        "https://www.allrecipes.com/thmb/avz80n-vn6ynQfOLSPH8KeYMmw4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/8057179-homemade-sloppy-joes-Toni-DeSantis-1x1-1-fa2175e8d9db4c32b403df1ea77dc863.jpg"
+    ],
+    "links": [
+        "https://www.allrecipes.com/recipe/220182/homemade-sloppy-joes/"
+    ],
+    "tags": [
+        "savory",
+        "american"
+    ],
+    "prep_time": 15,
+    "cook_time": 55,
+    "servings": 6,
+    "ingredients": [
+        {
+            "quantity": 1.5,
+            "unit": "pound",
+            "name": "ground beef",
+            "notes": "extra-lean"
+        },
+        {
+            "quantity": 0.5,
+            "name": "onion",
+            "notes": "diced"
+        },
+        {
+            "quantity": 1,
+            "name": "green pepper",
+            "notes": "diced"
+        },
+        {
+            "quantity": 2,
+            "unit": "cloves",
+            "name": "garlic",
+            "notes": "diced"
+        },
+        {
+            "quantity": 2,
+            "unit": "cup",
+            "name": "water",
+            "notes": "divided"
+        },
+        {
+            "quantity": 0.75,
+            "unit": "cup",
+            "name": "ketchup"
+        },
+        {
+            "quantity": 2,
+            "unit": "tablespoon",
+            "name": "brown sugar"
+        },
+        {
+            "quantity": 1,
+            "unit": "teaspoon",
+            "name": "Dijon mustard"
+        },
+        {
+            "quantity": 1.5,
+            "unit": "teaspoon",
+            "name": "salt",
+            "notes": "or to taste"
+        },
+        {
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "name": "black pepper",
+            "notes": "ground"
+        },
+        {
+            "quantity": 1,
+            "unit": "dash",
+            "name": "Worcestershire sauce"
+        },
+        {
+            "quantity": 1,
+            "unit": "pinch",
+            "name": "cayenne pepper",
+            "notes": "or to taste"
+        }
+    ],
+    "instructions": [
+        "Place ground beef and onion in a large skillet. Turn heat to medium and cook and stir the mixture constantly until the beef is browned and forms small crumbles, about 10 minutes.",
+        "Stir in garlic and green bell pepper; cook and stir until softened, 2 to 3 minutes. Add 1 cup water and stir, scraping the pan to dissolve any brown flavor bits from the bottom of the skillet.",
+        "Mix in ketchup, Worcestershire sauce, brown sugar, Dijon mustard, salt, and black pepper. Add 1 more cup water and return mixture to a simmer. Reduce heat to low and simmer, stirring occasionally, until the liquid has evaporated and the mixture is thick, about 40 minutes.",
+        "Season with salt , black pepper, and cayenne pepper to taste."
+    ]
+}

@@ -25,3 +25,19 @@ body {
     text-wrap: balance;
   }
 }
+
+@layer base {
+  ul {
+    @apply list-disc;
+    @apply list-inside;
+  }
+
+  ol {
+    @apply list-decimal;
+    @apply list-inside;
+  }
+
+  svg {
+    fill: currentColor;
+  }
+}

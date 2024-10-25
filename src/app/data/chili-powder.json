@@ -1,0 +1,55 @@
+{
+    "name": "Chili Powder",
+    "category": "seasonings",
+    "locale": "en",
+    "images": [
+        "https://www.allrecipes.com/thmb/LXRU0vlvP0f8b-koe4gWV3RZofE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/4560232-37145a0950304c5cb7405275ab831cd2.jpg"
+    ],
+    "links": [
+        "https://www.allrecipes.com/recipe/237172/chili-powder/"
+    ],
+    "tags": [
+        "vegetarian",
+        "vegan"
+    ],
+    "prep_time": 5,
+    "cook_time": 0,
+    "servings": 6,
+    "ingredients": [
+        {
+            "name": "Paprika",
+            "quantity": 2,
+            "unit": "EL"
+        },
+        {
+            "name": "Oregano",
+            "quantity": 2,
+            "unit": "TL"
+        },
+        {
+            "name": "cumin",
+            "quantity": 1.5,
+            "unit": "TL"
+        },
+        {
+            "name": "Garlic powder",
+            "quantity": 1.5,
+            "unit": "TL"
+        },
+        {
+            "name": "Onion powder",
+            "quantity": 0.75,
+            "unit": "TL"
+        },
+        {
+            "name": "Cayenne pepper",
+            "quantity": 0.5,
+            "unit": "TL",
+            "optional": true,
+            "notes": "to taste"
+        }
+    ],
+    "instructions": [
+        "Whisk paprika, oregano, cumin, garlic powder, onion powder, and cayenne pepper together in a bowl. Store refrigerated in an airtight container. "
+    ]
+}

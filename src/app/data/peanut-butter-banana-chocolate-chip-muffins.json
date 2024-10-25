@@ -1,0 +1,91 @@
+{
+    "name": "Peanut Butter Banana Chocolate Chip Muffins",
+    "category": "sweets",
+    "locale": "en",
+    "images": [
+        "https://www.momontimeout.com/wp-content/uploads/2014/10/peanut-butter-banana-chocolate-chip-muffins.jpg"
+    ],
+    "links": [
+        "https://www.momontimeout.com/peanut-butter-banana-chocolate-chip-muffins-recipe/ "
+    ],
+    "tags": [
+        "american",
+        "vegetarian",
+        "sweet"
+    ],
+    "prep_time": 5,
+    "cook_time": 25,
+    "servings": 12,
+    "ingredients": [
+        {
+            "quantity": 3,
+            "name": "ripe bananas",
+            "notes": "3 to 4 - approx 1 1/2 cups (450g), ripe, mashed"
+        },
+        {
+            "quantity": 6,
+            "unit": "tablespoon",
+            "name": "butter softened"
+        },
+        {
+            "quantity": 0.5,
+            "unit": "cup",
+            "name": "creamy peanut butter"
+        },
+        {
+            "quantity": 0.75,
+            "unit": "cup",
+            "name": "light brown sugar"
+        },
+        {
+            "quantity": 1,
+            "name": "egg"
+        },
+        {
+            "quantity": 1,
+            "unit": "teaspoon",
+            "name": "vanilla"
+        },
+        {
+            "quantity": 1.25,
+            "unit": "cup",
+            "name": "flour",
+            "notes": "divided"
+        },
+        {
+            "quantity": 1,
+            "unit": "teaspoon",
+            "name": "baking soda"
+        },
+        {
+            "quantity": 1,
+            "unit": "teaspoon",
+            "name": "baking powder"
+        },
+        {
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "name": "salt"
+        },
+        {
+            "quantity": 0.75,
+            "unit": "cup",
+            "name": "semi-sweet chocolate chips"
+        },
+        {
+            "quantity": 0.5,
+            "unit": "cup",
+            "name": "Reese's peanut butter chips"
+        }
+    ],
+    "instructions": [
+        "Preheat the oven to 325°F (163°C) degrees. Peel and mash the bananas.",
+        "Add in the egg, butter, peanut butter, brown sugar and vanilla and mix until well combined.",
+        "Combine 1 cup of flour and remaining dry ingredients, reserving 1/4 cup of flour. Add the dry ingredients and stir just until combined. Do not overmix.",
+        "Combine Reese's peanut butter chips, and chocolate chips in a bowl. Sprinkle remaining 1/4 cup of flour over the chips and gently coat the chips with flour.",
+        "Add to batter and mix just until combined.",
+        "Lightly grease a muffin tin or line with baking cups.",
+        "Divide batter evenly among 12 cups.",
+        "Bake muffins for 20-25 minutes or until golden brown. Let the muffins cool slightly before removing from tin."
+    ]
+}

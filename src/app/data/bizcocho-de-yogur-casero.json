@@ -1,0 +1,62 @@
+{
+    "name": "Bizcocho de yogur casero",
+    "category": "sweets",
+    "locale": "es",
+    "images": [
+        "https://i.blogs.es/6859eb/bizcocho_yogur_4_3/650_1200.jpg"
+    ],
+    "links": [
+        "https://www.directoalpaladar.com/postres/bizcocho-yogur-clasico-basico-para-iniciarse-reposteria"
+    ],
+    "tags": [
+        "sweet",
+        "spain",
+        "vegetarian"
+    ],
+    "prep_time": 5,
+    "cook_time": 35,
+    "servings": 6,
+    "ingredients": [
+        {
+            "name": "Yogur natural",
+            "quantity": 1,
+            "notes": "puede ser también un yogur de sabor limón"
+        },
+        {
+            "name": "Aceite de girasol ",
+            "notes": "la medida del yogur",
+            "quantity": 0.5
+        },
+        {
+            "name": "Azúcar ",
+            "notes": "dos veces la medida del yogur",
+            "quantity": 2
+        },
+        {
+            "name": "Harina de repostería",
+            "notes": "tres veces la medida del yogur",
+            "quantity": 3
+        },
+        {
+            "name": "Huevos",
+            "quantity": 3
+        },
+        {
+            "name": "Levadura química medio sobre",
+            "quantity": 0
+        },
+        {
+            "name": "Ralladura de limón",
+            "quantity": 0,
+            "optional": true
+        },
+        {
+            "name": "Mantequilla",
+            "quantity": 0,
+            "notes": "para untar el molde"
+        }
+    ],
+    "instructions": [
+        "bake aty 180 degrees for 35 minutes"
+    ]
+}

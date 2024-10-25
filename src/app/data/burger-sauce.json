@@ -1,0 +1,66 @@
+{
+    "name": "Burger Sauce",
+    "category": "sauces",
+    "locale": "en",
+    "images": [
+        "https://www.dontgobaconmyheart.co.uk/wp-content/uploads/2020/03/best-burger-sauce-recipe.jpg"
+    ],
+    "links": [
+        "https://www.dontgobaconmyheart.co.uk/burger-sauce/"
+    ],
+    "tags": [
+        "american",
+        "vegetarian"
+    ],
+    "prep_time": 5,
+    "cook_time": 0,
+    "servings": 6,
+    "ingredients": [
+        {
+            "name": "Mayonnaise",
+            "quantity": 4,
+            "unit": "tablespoon",
+            "notes": "Full Fat, don’t sub sour cream, yoghurt etc."
+        },
+        {
+            "name": "Ketchup",
+            "quantity": 2,
+            "unit": "tablespoon",
+            "notes": "Avoid any brands which you know are particularly vinegary."
+        },
+        {
+            "name": "Mustard",
+            "notes": "I use Dijon, but Classic Yellow works great.",
+            "quantity": 2,
+            "unit": "teaspoon"
+        },
+        {
+            "name": "Pickle juice",
+            "notes": "Gherkin in UK, Dill Pickle in US",
+            "quantity": 2,
+            "unit": "teaspoon"
+        },
+        {
+            "name": "Onion powder",
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "notes": "For a smooth burger sauce, use powder. But you could use a small amount of finely minced shallot/white onion."
+        },
+        {
+            "name": "Sugar",
+            "notes": "(or to taste)",
+            "quantity": 0.5,
+            "unit": "teaspoon"
+        },
+        {
+            "name": "Salt",
+            "notes": "(or to taste)",
+            "quantity": 0.25,
+            "unit": "teaspoon"
+        }
+    ],
+    "instructions": [
+        "Add all of your ingredients in a mixing bowl and stir to combine. Adjust seasoning to preference then tightly cover and pop in the fridge, or serve right away!"
+    ],
+    "notes": "How long does Burger Sauce keep? Like most condiments burger sauce has a long shelf life if keep tightly sealed in the fridge. I usually keep mine for around 3-4days, but feel free to store for a lot longer at your discretion. If at all in doubt just look at the shelf life of the mayo, ketchup and mustard you use."
+}

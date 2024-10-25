@@ -1,0 +1,78 @@
+{
+    "name": "Ofen-Feta mit Kürbis",
+    "category": "main dishes",
+    "locale": "de",
+    "images": [
+        "https://www.leckerschmecker.me/wp-content/uploads/sites/6/2024/09/ofenfeta-mit-kurbis.png"
+    ],
+    "links": [
+        "https://www.leckerschmecker.me/ofen-feta-mit-kuerbis-a-f/63743511429357"
+    ],
+    "tags": [
+        "savory",
+        "autumn",
+        "vegetarian"
+    ],
+    "prep_time": 15,
+    "cook_time": 30,
+    "servings": 2,
+    "ingredients": [
+        {
+            "name": "Hokkaido",
+            "quantity": 1,
+            "unit": "",
+            "notes": ""
+        },
+        {
+            "name": "Olivenöl",
+            "quantity": 2,
+            "unit": "EL"
+        },
+        {
+            "name": "Paprikapulver",
+            "quantity": 1,
+            "unit": "TL",
+            "notes": ""
+        },
+        {
+            "name": "frischer Thymian",
+            "quantity": 1,
+            "unit": "TL",
+            "notes": ""
+        },
+        {
+            "name": "frischer Rosmarin",
+            "quantity": 1,
+            "unit": "TL"
+        },
+        {
+            "name": "Salz und Pfeffer",
+            "quantity": null,
+            "unit": null
+        },
+        {
+            "name": "Feta",
+            "quantity": 200,
+            "unit": "g"
+        },
+        {
+            "name": "Honig",
+            "quantity": 1,
+            "unit": "TL"
+        },
+        {
+            "name": "Chiliflocken",
+            "quantity": 0.25,
+            "unit": "TL",
+            "optional": true
+        }
+    ],
+    "instructions": [
+        "Heize den Ofen auf 200 °C Ober- und Unterhitze vor. Wasche den Kürbis gründlich, halbiere ihn und entferne die Kerne. Schneide den Kürbis in mundgerechte Stücke. Die Schale muss nicht entfernt werden.",
+        "Lege die Kürbisstücke in eine große Auflaufform. Beträufle sie mit 1 EL Olivenöl, bestreue sie mit Paprikapulver, Thymian, Rosmarin sowie etwas Salz und Pfeffer. Vermenge alles gut, sodass die Kürbisstücke gleichmäßig gewürzt sind.",
+        "Lege den Feta in die Mitte der Auflaufform. Beträufle ihn mit dem restlichen Olivenöl und dem Honig. Optional kannst du zusätzlich noch Chiliflocken darüberstreuen.",
+        "Backe alles für etwa 25–30 Minuten im Ofen, bis der Kürbis weich ist und der Feta eine goldbraune Kruste bekommt.",
+        "Serviere den Ofen-Feta mit Kürbis entweder direkt aus dem Ofen mit knusprigem Brot oder als Beilage zu einem frischen Salat."
+    ],
+    "notes": ""
+}

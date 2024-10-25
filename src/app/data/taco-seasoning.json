@@ -1,0 +1,74 @@
+{
+    "name": "Taco Seasoning",
+    "category": "seasonings",
+    "locale": "en",
+    "images": [
+        "https://gimmedelicious.com/wp-content/uploads/2018/03/The-Best-Taco-Seasoning-4.jpg"
+    ],
+    "links": [
+        "https://gimmedelicious.com/the-best-homemade-taco-seasoning/"
+    ],
+    "tags": [
+        "mexican",
+        "vegetarian",
+        "vegan"
+    ],
+    "prep_time": 5,
+    "cook_time": 0,
+    "servings": 4,
+    "ingredients": [
+        {
+            "name": "chili powder",
+            "quantity": 4,
+            "unit": "EL",
+            "notes": ""
+        },
+        {
+            "name": "cumin",
+            "quantity": 2,
+            "unit": "EL"
+        },
+        {
+            "name": "Paprika",
+            "quantity": 1,
+            "unit": "EL",
+            "notes": ""
+        },
+        {
+            "name": "Salt",
+            "quantity": 1,
+            "unit": "EL",
+            "notes": ""
+        },
+        {
+            "name": "Garlic powder",
+            "quantity": 1,
+            "unit": "TL"
+        },
+        {
+            "name": "Dried onion",
+            "quantity": 1,
+            "unit": "TL"
+        },
+        {
+            "name": "Oregano",
+            "quantity": 1,
+            "unit": "TL"
+        },
+        {
+            "name": "Black pepper",
+            "quantity": 1,
+            "unit": "TL"
+        },
+        {
+            "name": "Cornstarch",
+            "quantity": 1,
+            "unit": "EL",
+            "optional": true
+        }
+    ],
+    "instructions": [
+        "Mix everything together and then store."
+    ],
+    "notes": "About 2 tablespoons of taco seasoning are equivalent To 1 taco packet, 500g meat. "
+}

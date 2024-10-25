@@ -1,0 +1,37 @@
+{
+    "name": "Lawson's Chip Dip",
+    "category": "sauces",
+    "locale": "en",
+    "images": [
+        "https://images.openfoodfacts.org/images/products/071/563/716/1009/front_en.7.full.jpg"
+    ],
+    "tags": [
+        "savory",
+        "vegetarian",
+        "dip",
+        "american"
+    ],
+    "prep_time": 5,
+    "cook_time": 0,
+    "servings": 1,
+    "ingredients": [
+        {
+            "quantity": 245,
+            "unit": "g",
+            "name": "sour cream"
+        },
+        {
+            "quantity": 225,
+            "unit": "g",
+            "name": "cream cheese w/chives & onions"
+        },
+        {
+            "quantity": 3,
+            "unit": "teaspoon",
+            "name": "dry ranch dressing"
+        }
+    ],
+    "instructions": [
+        "Mix all ingredients and let sit overnight in refrigerator."
+    ]
+}

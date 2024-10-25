@@ -1,0 +1,81 @@
+{
+    "name": "Spaghetti Carbonara",
+    "category": "main dishes",
+    "locale": "en",
+    "images": [
+        "https://www.recipetineats.com/tachyon/2023/01/Carbonara_6a.jpg?resize=900%2C1125&zoom=1"
+    ],
+    "links": [
+        "https://www.recipetineats.com/carbonara/"
+    ],
+    "tags": [
+        "savory",
+        "italian",
+        "pasta"
+    ],
+    "ingredients": [
+        {
+            "quantity": 175,
+            "unit": "g",
+            "name": "guanciale (pancetta or block bacon), weight after skin removed "
+        },
+        {
+            "quantity": 2,
+            "name": "egg;"
+        },
+        {
+            "quantity": 2,
+            "name": "egg yolks"
+        },
+        {
+            "quantity": 100,
+            "unit": "g",
+            "name": "parmigiano reggiano , finely shredded (or pecorino romano, sub parmesan)"
+        },
+        {
+            "quantity": 0.25,
+            "unit": "teaspoon",
+            "name": "black pepper"
+        },
+        {
+            "quantity": 400,
+            "unit": "g",
+            "name": "spaghetti"
+        },
+        {
+            "quantity": 1,
+            "unit": "tablespoon",
+            "name": "cooking/kosher salt (for cooking pasta)"
+        },
+        {
+            "quantity": 125,
+            "unit": "ml",
+            "name": "pasta cooking water"
+        },
+        {
+            "quantity": 1,
+            "name": "garlic clove , finely minced"
+        },
+        {
+            "name": "Parsley , finely chopped",
+            "notes": "for garnish",
+            "optional": true
+        },
+        {
+            "name": "Parmigiano reggiano",
+            "notes": "for garnish",
+            "optional": true
+        }
+    ],
+    "instructions": [
+        "Guanciale – Cut into 0.5cm / 1/5 thick slices then into batons.",
+        "Carbonara sauce – Place eggs and yolks in a large bowl. Whisk to combine. Then stir in the parmesan and pepper.",
+        "Cook pasta – Bring 4 litres (4 quarts) of water to the boil with the salt. Add pasta and cook per the packet directions.",
+        "Reserve pasta water – Just before draining, scoop out 1 cup of pasta cooking water, then drain the pasta.",
+        "Cook guanciale – While the pasta is cooking, place guanciale in a non stick pan over medium high heat. Cook for 4 to 5 minutes until golden. No oil needed – as the guanciale heats up, the fat will melt so it fries in its own fat. If using garlic, add it in the last minute.",
+        "Pasta in pan – Tip the hot pasta into the pan and toss to coat in guanciale fat.",
+        "Mix pasta in sauce – Transfer the pasta and any residual fat in the pan into the bowl with the egg. Add 1/2 cup (125 ml) pasta cooking water. Stir vigorously using the handle of a wooden spoon for 1 minute and watch as the sauce transforms from watery to creamy and clings to the pasta strands!",
+        "Serve – Transfer into warm bowls. Serve immediately, garnished with a little extra parmigiana reggiano if desired, and a pinch of black pepper and finely chopped parsley."
+    ],
+    "notes": "What’s the shelf life of hamburger seasoning? This recipe makes approximately 6 teaspoons of seasoning, which is enough for 2-3 pounds of beef. We often double the recipe and store any leftovers for future use. You can store any leftover seasoning in an air tight container for 6 months."
+}

@@ -1,0 +1,63 @@
+{
+    "name": "Burger Seasoning",
+    "category": "seasonings",
+    "locale": "en",
+    "images": [
+        "https://www.clovermeadowsbeef.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2020/07/best-hamburger-seasoning-ground-beef-spice-blend-500x500.png.webp"
+    ],
+    "links": [
+        "https://www.clovermeadowsbeef.com/best-hamburger-seasoning/"
+    ],
+    "tags": [
+        "american",
+        "vegetarian",
+        "vegan"
+    ],
+    "ingredients": [
+        {
+            "name": "Paprika",
+            "quantity": 2,
+            "unit": "teaspoon"
+        },
+        {
+            "name": "Ground black pepper",
+            "quantity": 1.5,
+            "unit": "teaspoon"
+        },
+        {
+            "name": "Salt",
+            "quantity": 1.25,
+            "unit": "teaspoon"
+        },
+        {
+            "name": "Dark brown sugar",
+            "quantity": 0.5,
+            "unit": "teaspoon"
+        },
+        {
+            "name": "Garlic powder",
+            "quantity": 0.25,
+            "unit": "teaspoon"
+        },
+        {
+            "name": "Onion powder",
+            "quantity": 0.25,
+            "unit": "teaspoon"
+        },
+        {
+            "name": "Ground cayenne pepper",
+            "quantity": 0.25,
+            "unit": "teaspoon"
+        },
+        {
+            "name": "Cumin",
+            "quantity": 0.25,
+            "unit": "teaspoon"
+        }
+    ],
+    "instructions": [
+        "Combine all ingredients in a small bowl. Mix well until combined. When ready to use, mix in 2-3 teaspoons per 1 pound of meat.",
+        "Create hamburger patties and grill hamburgers as usual."
+    ],
+    "notes": "What’s the shelf life of hamburger seasoning? This recipe makes approximately 6 teaspoons of seasoning, which is enough for 2-3 pounds of beef. We often double the recipe and store any leftovers for future use. You can store any leftover seasoning in an air tight container for 6 months."
+}

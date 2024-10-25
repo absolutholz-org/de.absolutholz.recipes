@@ -1,0 +1,52 @@
+{
+    "name": "Simple Egg Salad",
+    "category": "sandwiches",
+    "locale": "en",
+    "images": [
+        "https://www.noracooks.com/wp-content/uploads/2023/07/vegan-egg-salad-8.jpg"
+    ],
+    "tags": [
+        "savory",
+        "american",
+        "vegetarian"
+    ],
+    "prep_time": 5,
+    "cook_time": 12,
+    "servings": 3,
+    "ingredients": [
+        {
+            "quantity": 8,
+            "name": "egg"
+        },
+        {
+            "quantity": 0.5,
+            "unit": "cup",
+            "name": "mayonnaise"
+        },
+        {
+            "quantity": 1,
+            "unit": "teaspoon",
+            "name": "prepared yellow mustard"
+        },
+        {
+            "quantity": 0.25,
+            "unit": "cup",
+            "name": "chopped green onion"
+        },
+        {
+            "quantity": 0.25,
+            "unit": "teaspoon",
+            "name": "salt and pepper to taste"
+        },
+        {
+            "quantity": 0.25,
+            "unit": "teaspoon",
+            "name": "paprika"
+        }
+    ],
+    "instructions": [
+        "Place egg in a saucepan and cover with cold water. Bring water to a boil and immediately remove from heat. Cover and let eggs stand in hot water for 10 to 12 minutes. Remove from hot water, cool, peel and chop.",
+        "Place the chopped eggs in a bowl, and stir in the mayonnaise, mustard and green onion. Season with salt, pepper and paprika. Stir and serve on your favorite bread or crackers."
+    ],
+    "notes": "The secret to great egg salad is to mix the cold mayo with the still hot yolks. This makes a much creamier base to add the rest of the ingredients to. For other creative egg salad ideas check out: https://youtu.be/76b7LuwueWo?si=KAA_ZBOIpZowW_mK"
+}

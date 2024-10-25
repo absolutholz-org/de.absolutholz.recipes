@@ -1,0 +1,41 @@
+{
+    "name": "Grandma Wood's Iced Tea",
+    "category": "drinks",
+    "locale": "en",
+    "images": [
+        "https://s3.amazonaws.com/yummy_uploads2/blog/7482.jpg"
+    ],
+    "tags": [
+        "sweet",
+        "american",
+        "vegetarian",
+        "vegan"
+    ],
+    "prep_time": 5,
+    "cook_time": 120,
+    "servings": 8,
+    "ingredients": [
+        {
+            "quantity": 7,
+            "name": "black tea bags"
+        },
+        {
+            "quantity": 0.5,
+            "unit": "cup",
+            "name": "sugar"
+        },
+        {
+            "quantity": 8,
+            "unit": "cup",
+            "name": "water",
+            "notes": "divided"
+        }
+    ],
+    "instructions": [
+        "Boil half of water and turn off.",
+        "Add tea bags.",
+        "Cover and steep 1 - 2 hours, covered.",
+        "Add sugar to half of cold water.",
+        "Mix sugary cold water with tea mixture."
+    ]
+}

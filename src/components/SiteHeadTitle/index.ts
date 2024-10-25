@@ -1,0 +1,1 @@
+export { SiteHeadTitle } from './SiteHeadTitle';

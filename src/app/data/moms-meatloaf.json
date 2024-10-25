@@ -1,0 +1,72 @@
+{
+    "name": "Mom's Meatloaf",
+    "category": "main dishes",
+    "locale": "en",
+    "images": [
+        "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2024/01/Meatloaf-main-500x500.jpg"
+    ],
+    "tags": [
+        "american",
+        "savory"
+    ],
+    "prep_time": 15,
+    "cook_time": 90,
+    "servings": 2,
+    "ingredients": [
+        {
+            "quantity": 1.5,
+            "unit": "pound",
+            "name": "ground chuck",
+            "notes": "I like to use beef or mixed beef & pork"
+        },
+        {
+            "quantity": 1,
+            "name": "egg"
+        },
+        {
+            "quantity": 0.5,
+            "unit": "cup",
+            "name": "breadcrumbs"
+        },
+        {
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "name": "black pepper",
+            "notes": "or to taste"
+        },
+        {
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "name": "salt",
+            "notes": "or to taste"
+        },
+        {
+            "quantity": 0.25,
+            "unit": "cup",
+            "name": "ketchup",
+            "notes": "I use my own BBQ sauce"
+        },
+        {
+            "quantity": 1,
+            "name": "onion",
+            "notes": "chopped",
+            "optional": true
+        },
+        {
+            "quantity": 0.25,
+            "unit": "teaspoon",
+            "name": "feta cheese",
+            "optional": true
+        },
+        {
+            "quantity": 0.25,
+            "unit": "teaspoon",
+            "name": "garlic",
+            "optional": true
+        }
+    ],
+    "instructions": [
+        "Mix all together, shape into a loaf & drizzle some ketchup on top.",
+        "Bake at 350° (≈ 176.7° C) degrees for 1 - 1 & 1/2 hours. Initially cover with tin foil"
+    ]
+}
