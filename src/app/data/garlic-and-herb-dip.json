@@ -9,8 +9,7 @@
         "https://www.dontgobaconmyheart.co.uk/garlic-and-herb-dip/"
     ],
     "tags": [
-        "breakfast",
-        "sweet",
+        "savory",
         "vegetarian"
     ],
     "prep_time": 5,
@@ -18,39 +17,53 @@
     "servings": 1,
     "ingredients": [
         {
-            "quantity": 0.75,
-            "unit": "cup",
-            "name": "milk"
-        },
-        {
-            "quantity": 65,
+            "quantity": 120,
             "unit": "g",
-            "name": "greek yogurt"
+            "name": "mayonaise",
+            "notes": "full fat"
         },
         {
-            "quantity": 0.5,
-            "unit": "cup",
-            "name": "strawberries"
+            "quantity": 120,
+            "unit": "g",
+            "name": "sour cream",
+            "notes": "Sauer Sahne or Schmand"
         },
         {
-            "quantity": "½",
-            "unit": "cup",
-            "name": "blueberries"
+            "quantity": 1,
+            "unit": "tablespoon",
+            "name": "white wine vinegar"
         },
         {
-            "quantity": "2",
-            "name": "bananas",
-            "notes": "sliced, frozen"
-        },
-        {
-            "quantity": "1",
+            "quantity": 1,
             "unit": "teaspoon",
-            "name": "chia seeds"
+            "name": "dried parsely"
+        },
+        {
+            "quantity": 1,
+            "name": "teaspoon",
+            "notes": "dried oregano"
+        },
+        {
+            "quantity": 1,
+            "unit": "clove",
+            "name": "garlic",
+            "notes": "medium size, grated or minced"
+        },
+        {
+            "quantity": 1,
+            "unit": "pinch",
+            "name": "sugar",
+            "notes": "to taste"
+        },
+        {
+            "quantity": 1,
+            "unit": "pinch",
+            "name": "salt",
+            "notes": "to taste"
         }
     ],
     "instructions": [
-        "Pour milk into blender first.",
-        "Add greek yogurt and frozen bananas. Pulse until well blended and smooth.",
-        "Add strawberries, pulse to blend thoroughly. Add blueberries and chia seeds and pulse until blended."
+        "In a medium sized mixing bowl combine mayo, sour cream, herbs, garlic and vinegar and stir to combine. Test for seasoning and adjust to taste.",
+        "Cover with cling film and rest in the fridge for the flavours to develop (at least an hour, overnight is best)."
     ]
 }
