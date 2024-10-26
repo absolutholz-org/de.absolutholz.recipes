@@ -33,17 +33,17 @@
             "name": "strawberries"
         },
         {
-            "quantity": "½",
+            "quantity": 0.5,
             "unit": "cup",
             "name": "blueberries"
         },
         {
-            "quantity": "2",
+            "quantity": 2,
             "name": "bananas",
             "notes": "sliced, frozen"
         },
         {
-            "quantity": "1",
+            "quantity": 1,
             "unit": "teaspoon",
             "name": "chia seeds"
         }
