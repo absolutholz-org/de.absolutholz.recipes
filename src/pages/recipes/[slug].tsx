@@ -1,14 +1,14 @@
-import { BadgeList } from '@/components/BadgeList';
-import { PageHeadline } from '@/app/components/PageHeadline';
-import { SectionHeadline } from '@/app/components/SectionHeadline';
-import { Category, Recipe } from '@/app/Recipe.type';
-import { getAllRecipeSlugs, getRecipe } from '@/lib/recipes';
-import type { GetStaticPaths, GetStaticProps } from 'next';
-import { ParsedUrlQuery } from 'querystring';
-import Markdown from 'react-markdown';
-import Head from 'next/head';
-import { SiteHeadTitle } from '@/components/SiteHeadTitle';
-import { getCategoryColors } from '..';
+import { BadgeList } from "@/components/BadgeList";
+import { PageHeadline } from "@/app/components/PageHeadline";
+import { SectionHeadline } from "@/app/components/SectionHeadline";
+import { Category, Recipe } from "@/app/Recipe.type";
+import { getAllRecipeSlugs, getRecipe } from "@/lib/recipes";
+import type { GetStaticPaths, GetStaticProps } from "next";
+import { ParsedUrlQuery } from "querystring";
+import Markdown from "react-markdown";
+import Head from "next/head";
+import { SiteHeadTitle } from "@/components/SiteHeadTitle";
+import { getCategoryColors } from "..";
 
 interface Params extends ParsedUrlQuery {
   slug: string;
@@ -46,7 +46,7 @@ export default function Page({ recipe }: { recipe: Recipe }) {
             {
               text: recipe.category,
               href: {
-                pathname: '/categories/[slug]',
+                pathname: "/categories/[slug]",
                 query: { slug: recipe.category },
               },
               color: {
@@ -65,14 +65,15 @@ export default function Page({ recipe }: { recipe: Recipe }) {
               badges={recipe.tags.map((tag) => ({
                 text: tag,
                 href: {
-                  pathname: '/tags/[slug]',
+                  pathname: "/tags/[slug]",
                   query: { slug: tag },
                 },
                 color: {
-                  bg: 'bg-indigo-500',
-                  border: 'border-indigo-500',
-                  text: 'text-indigo-500',
+                  bg: "bg-indigo-500",
+                  border: "border-indigo-500",
+                  text: "text-indigo-500",
                 },
+                size: "small",
               }))}
             />
           </>

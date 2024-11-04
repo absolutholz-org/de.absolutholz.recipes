@@ -1,4 +1,4 @@
-import { Url } from 'next/dist/shared/lib/router/router';
+import { Url } from "next/dist/shared/lib/router/router";
 
 export type IBadge = {
   text: string;
@@ -9,4 +9,5 @@ export type IBadge = {
   };
   href?: Url;
   count?: number;
+  size?: "large" | "small";
 };
