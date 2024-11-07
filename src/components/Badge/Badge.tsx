@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ConditionalWrapper } from "../../app/components/ConditionalWrapper";
 import { IBadge } from "./Badge.types";
+import { Icon } from "../Icon";
 
 export function Badge({
   text,
@@ -8,6 +9,7 @@ export function Badge({
   count,
   color,
   size = "large",
+  icon,
 }: IBadge): JSX.Element {
   return (
     <ConditionalWrapper
@@ -18,10 +20,17 @@ export function Badge({
         className={`inline-flex items-center rounded-full border-solid border-2 ${color.border}`}
       >
         <span
-          className={`rounded-full ${size === "large" ? "" : "text-sm"}  ${
-            size === "large" ? "px-4 py-1" : "px-2 py-0.5"
-          } ${color.bg} text-white`}
+          className={`flex items-center rounded-full ${
+            size === "large" ? "" : "text-sm"
+          }  ${size === "large" ? "px-4 py-1" : "px-2 py-0.5"} ${
+            color.bg
+          } text-white`}
         >
+          {icon && (
+            <span className="-ml-2 mr-2 text-xl">
+              <Icon src={icon} />
+            </span>
+          )}
           {text}
         </span>
         {count && (

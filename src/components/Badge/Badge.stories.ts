@@ -22,31 +22,39 @@ export const Default: Story = {
   },
 };
 
-export const withCount: Story = {
+export const WithCount: Story = {
   args: {
     ...Default.args,
     count: 88,
   },
 };
 
-export const asLink: Story = {
+export const WithIcon: Story = {
+  args: {
+    ...Default.args,
+    icon: "clock",
+  },
+};
+
+export const AsLink: Story = {
   args: {
     ...Default.args,
     href: "#",
   },
 };
 
-export const kitchenSink: Story = {
+export const KitchenSink: Story = {
   args: {
     ...Default.args,
     count: 88,
     href: "#",
+    icon: "clock",
   },
 };
 
-export const asSmall: Story = {
+export const AsSmall: Story = {
   args: {
-    ...kitchenSink.args,
+    ...KitchenSink.args,
     size: "small",
   },
 };

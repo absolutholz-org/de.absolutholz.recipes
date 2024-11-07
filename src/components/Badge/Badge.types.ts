@@ -1,4 +1,5 @@
 import { Url } from "next/dist/shared/lib/router/router";
+import { Icon } from "../Icon/Icon.types";
 
 export type IBadge = {
   text: string;
@@ -10,4 +11,5 @@ export type IBadge = {
   href?: Url;
   count?: number;
   size?: "large" | "small";
+  icon?: Icon;
 };
