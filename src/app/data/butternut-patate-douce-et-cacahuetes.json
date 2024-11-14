@@ -1,0 +1,69 @@
+{
+    "name": "Butternut, patate douce & cacahuètes",
+    "category": "main dish",
+    "locale": "fr",
+    "images": [
+        {
+            "src": "/images/recipes/banana-strawberry-blueberry-smoothies.jpg",
+            "alt": "Two colorful smoothies in glasses with strawberries, bananas, and blueberries within and on top."
+        }
+    ],
+    "links": [
+        "https://www.instagram.com/reel/DB3X0Jci1S5/"
+    ],
+    "tags": [
+        "breakfast",
+        "sweet",
+        "vegetarian"
+    ],
+    "prep_time": 20,
+    "cook_time": 40,
+    "servings": 4,
+    "ingredients": [
+        {
+            "quantity": 1,
+            "name": "butternut",
+            "notes": "petite; 500g épluchées"
+        },
+        {
+            "quantity": 2,
+            "name": "patates douces",
+            "notes": "300g épluchées"
+        },
+        {
+            "quantity": 250,
+            "unit": "g",
+            "name": "pois chiches cuits et égouttés"
+        },
+        {
+            "quantity": 1,
+            "name": "oignon"
+        },
+        {
+            "quantity": 1,
+            "notes": "Quelques gousses d’ail"
+        },
+        {
+            "quantity": 4,
+            "unit": "tablesspoon",
+            "name": "d’huile d’olive"
+        },
+        {
+            "quantity": 1,
+            "unit": "tablesspoon",
+            "name": "d’herbes de Provence"
+        },
+        {
+            "quantity": 1,
+            "name": "Sel"
+        },
+        {
+            "quantity": 1,
+            "name": "Poivre"
+        }
+    ],
+    "instructions": [
+        "Cuisson : Dans un four chaud, chaleur tournante: 40min à 190 degrés.",
+        "Pour la sauce cacahuète: 125g de yaourt à la grecque; 50g de fromage frais; 1cs de beurre de cacahuètes; Sel / Poivre"
+    ]
+}
