@@ -1,6 +1,7 @@
 import { SectionHeadline } from "@/app/components/SectionHeadline";
 import { Category } from "@/app/Recipe.type";
 import { BadgeList } from "@/components/BadgeList";
+import { PageContainer } from "@/components/PageContainer";
 import { PageHeader } from "@/components/PageHeader";
 import { CategoriesWithCount, getAllRecipeCategories } from "@/lib/recipes";
 
@@ -80,24 +81,26 @@ export default function Page({
     <main>
       <PageHeader h1="Categories" />
 
-      <div className="container mx-auto px-4 py-8">
-        <SectionHeadline text="Categories" />
-        <BadgeList
-          badges={Object.entries(categories).map(([category, count]) => ({
-            text: category,
-            href: {
-              pathname: "/categories/[slug]",
-              query: { slug: category },
-            },
-            color: {
-              bg: getCategoryColors(category as Category).bg,
-              border: getCategoryColors(category as Category).border,
-              text: getCategoryColors(category as Category).text,
-            },
-            count,
-          }))}
-        />
-      </div>
+      <PageContainer>
+        <div className="py-8">
+          <SectionHeadline text="Categories" />
+          <BadgeList
+            badges={Object.entries(categories).map(([category, count]) => ({
+              text: category,
+              href: {
+                pathname: "/categories/[slug]",
+                query: { slug: category },
+              },
+              color: {
+                bg: getCategoryColors(category as Category).bg,
+                border: getCategoryColors(category as Category).border,
+                text: getCategoryColors(category as Category).text,
+              },
+              count,
+            }))}
+          />
+        </div>
+      </PageContainer>
     </main>
   );
 }

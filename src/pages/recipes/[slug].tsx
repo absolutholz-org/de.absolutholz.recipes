@@ -9,6 +9,7 @@ import Head from "next/head";
 import { ParsedUrlQuery } from "querystring";
 import Markdown from "react-markdown";
 import { getCategoryColors } from "..";
+import { PageContainer } from "@/components/PageContainer";
 
 interface Params extends ParsedUrlQuery {
   slug: string;
@@ -40,109 +41,114 @@ export default function Page({ recipe }: { recipe: Recipe }) {
       <main>
         <PageHeader h1={recipe.name} />
 
-        <div className="container mx-auto px-4 py-8">
-          <SectionHeadline text="Category" />
-          <BadgeList
-            badges={[
-              {
-                text: recipe.category,
-                href: {
-                  pathname: "/categories/[slug]",
-                  query: { slug: recipe.category },
-                },
-                color: {
-                  bg: getCategoryColors(recipe.category as Category).bg,
-                  border: getCategoryColors(recipe.category as Category).border,
-                  text: getCategoryColors(recipe.category as Category).text,
-                },
-              },
-            ]}
-          />
-
-          {recipe.tags && (
-            <>
-              <SectionHeadline text="Tags" />
-              <BadgeList
-                badges={recipe.tags.map((tag) => ({
-                  text: tag,
+        <PageContainer>
+          <div className="py-8">
+            <SectionHeadline text="Category" />
+            <BadgeList
+              badges={[
+                {
+                  text: recipe.category,
                   href: {
-                    pathname: "/tags/[slug]",
-                    query: { slug: tag },
+                    pathname: "/categories/[slug]",
+                    query: { slug: recipe.category },
                   },
                   color: {
-                    bg: "bg-indigo-500",
-                    border: "border-indigo-500",
-                    text: "text-indigo-500",
+                    bg: getCategoryColors(recipe.category as Category).bg,
+                    border: getCategoryColors(recipe.category as Category)
+                      .border,
+                    text: getCategoryColors(recipe.category as Category).text,
                   },
-                  size: "small",
-                }))}
-              />
-            </>
-          )}
+                },
+              ]}
+            />
 
-          {recipe.description && (
-            <>
-              <SectionHeadline text="Description" />
-              <Markdown>{recipe.description}</Markdown>
-            </>
-          )}
+            {recipe.tags && (
+              <>
+                <SectionHeadline text="Tags" />
+                <BadgeList
+                  badges={recipe.tags.map((tag) => ({
+                    text: tag,
+                    href: {
+                      pathname: "/tags/[slug]",
+                      query: { slug: tag },
+                    },
+                    color: {
+                      bg: "bg-indigo-500",
+                      border: "border-indigo-500",
+                      text: "text-indigo-500",
+                    },
+                    size: "small",
+                  }))}
+                />
+              </>
+            )}
 
-          {recipe.ingredients && (
-            <>
-              <SectionHeadline text="Ingredients" />
-              <ul>
-                {recipe.ingredients.map((ingredient) => (
-                  <li key={ingredient.name}>
-                    {ingredient.quantity && <span>{ingredient.quantity} </span>}
-                    {ingredient.unit && <span>{ingredient.unit} </span>}
-                    <span>{ingredient.name}</span>
-                    {ingredient.notes && (
-                      <span>
-                        <Markdown>{ingredient.notes}</Markdown>
-                      </span>
-                    )}
-                    {ingredient.optional && <span> (optional)</span>}
-                  </li>
-                ))}
-              </ul>
-            </>
-          )}
+            {recipe.description && (
+              <>
+                <SectionHeadline text="Description" />
+                <Markdown>{recipe.description}</Markdown>
+              </>
+            )}
 
-          {recipe.instructions && (
-            <>
-              <SectionHeadline text="Instructions" />
-              <ol>
-                {recipe.instructions.map((instruction) => (
-                  <li key={instruction}>
-                    <Markdown>{instruction}</Markdown>
-                  </li>
-                ))}
-              </ol>
-            </>
-          )}
+            {recipe.ingredients && (
+              <>
+                <SectionHeadline text="Ingredients" />
+                <ul>
+                  {recipe.ingredients.map((ingredient) => (
+                    <li key={ingredient.name}>
+                      {ingredient.quantity && (
+                        <span>{ingredient.quantity} </span>
+                      )}
+                      {ingredient.unit && <span>{ingredient.unit} </span>}
+                      <span>{ingredient.name}</span>
+                      {ingredient.notes && (
+                        <span>
+                          <Markdown>{ingredient.notes}</Markdown>
+                        </span>
+                      )}
+                      {ingredient.optional && <span> (optional)</span>}
+                    </li>
+                  ))}
+                </ul>
+              </>
+            )}
 
-          {recipe.notes && (
-            <>
-              <SectionHeadline text="Notes" />
-              <Markdown>{recipe.notes}</Markdown>
-            </>
-          )}
+            {recipe.instructions && (
+              <>
+                <SectionHeadline text="Instructions" />
+                <ol>
+                  {recipe.instructions.map((instruction) => (
+                    <li key={instruction}>
+                      <Markdown>{instruction}</Markdown>
+                    </li>
+                  ))}
+                </ol>
+              </>
+            )}
 
-          {recipe.links && (
-            <>
-              <SectionHeadline text="Links" />
-              <ul>
-                {recipe.links.map((link) => (
-                  <li key={link}>
-                    <a href={link} rel="noopener noreferrer" target="_blank">
-                      {link}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </>
-          )}
-        </div>
+            {recipe.notes && (
+              <>
+                <SectionHeadline text="Notes" />
+                <Markdown>{recipe.notes}</Markdown>
+              </>
+            )}
+
+            {recipe.links && (
+              <>
+                <SectionHeadline text="Links" />
+                <ul>
+                  {recipe.links.map((link) => (
+                    <li key={link}>
+                      <a href={link} rel="noopener noreferrer" target="_blank">
+                        {link}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </>
+            )}
+          </div>
+        </PageContainer>
       </main>
     </>
   );

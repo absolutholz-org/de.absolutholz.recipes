@@ -1,13 +1,13 @@
-import { LayoutContainer } from "../LayoutContainer/LayoutContainer";
 import { ISiteFooter } from "./SiteFooter.types";
 import { Breadcrumbs } from "../Breadcrumbs";
+import { PageContainer } from "../PageContainer";
 
 export function SiteFooter({}: ISiteFooter): JSX.Element {
   return (
     <footer className="py-4">
-      <LayoutContainer>
+      <PageContainer>
         <Breadcrumbs />
-      </LayoutContainer>
+      </PageContainer>
     </footer>
   );
 }

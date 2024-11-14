@@ -1,6 +1,7 @@
 import { RecipeTileList } from "@/app/components/RecipeTileList";
 import { SectionHeadline } from "@/app/components/SectionHeadline";
 import { Category, Recipe } from "@/app/Recipe.type";
+import { PageContainer } from "@/components/PageContainer";
 import { PageHeader } from "@/components/PageHeader";
 import { SiteHeadTitle } from "@/components/SiteHeadTitle";
 import {
@@ -45,10 +46,12 @@ export default function Page({ category, recipes }: Props) {
       <main>
         <PageHeader h1={category} />
 
-        <div className="container mx-auto px-4 py-8">
-          <SectionHeadline text="Recipes" />
-          <RecipeTileList recipes={recipes} />
-        </div>
+        <PageContainer>
+          <div className="py-8">
+            <SectionHeadline text="Recipes" />
+            <RecipeTileList recipes={recipes} />
+          </div>
+        </PageContainer>
       </main>
     </>
   );
