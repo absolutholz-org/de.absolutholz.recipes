@@ -1,11 +1,11 @@
-import type { Meta, StoryObj } from '@storybook/react';
+import type { Meta, StoryObj } from "@storybook/react";
 
-import { FlagIcon } from '.';
+import { FlagIcon } from ".";
 
 const meta = {
-  title: 'Components/FlagIcon',
+  title: "Components/FlagIcon",
   component: FlagIcon,
-  tags: ['autodocs'],
+  tags: ["autodocs"],
 } satisfies Meta<typeof FlagIcon>;
 
 export default meta;
@@ -13,7 +13,6 @@ type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {
   args: {
-    src: 'de',
-    label: '',
+    src: "fr",
   },
 };

@@ -1,6 +1,6 @@
 export type Unit = "TL" | "EL" | "g" | "ml" | "pinch";
 
-export type Locale = "de" | "es" | "en";
+export type Locale = "de" | "es" | "en" | "fr";
 
 export type Category =
   | "appetizers"
