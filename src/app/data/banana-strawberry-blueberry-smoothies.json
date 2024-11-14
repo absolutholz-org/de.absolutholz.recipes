@@ -3,7 +3,10 @@
     "category": "drinks",
     "locale": "en",
     "images": [
-        "https://www.apinchofjoy.com/wp-content/uploads/2021/01/IMG_0635.png"
+        {
+            "src": "/images/recipes/banana-strawberry-blueberry-smoothies.jpg",
+            "alt": "Two colorful smoothies in glasses with strawberries, bananas, and blueberries within and on top."
+        }
     ],
     "links": [
         "https://www.apinchofjoy.com/blog/2021/01/26/banana-strawberry-blueberry-smoothies/"

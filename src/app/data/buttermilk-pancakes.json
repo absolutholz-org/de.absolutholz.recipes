@@ -3,7 +3,10 @@
     "category": "sweets",
     "locale": "en",
     "images": [
-        "https://www.allrecipes.com/thmb/X2cMaVGyK-DIz1B7DRoLZZujuo0=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/24530-ButtermilkPancakes-II-mfs-4X3-3385-b9e08648074145d18c538731c2be4215.jpg"
+        {
+            "src": "https://www.allrecipes.com/thmb/X2cMaVGyK-DIz1B7DRoLZZujuo0=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/24530-ButtermilkPancakes-II-mfs-4X3-3385-b9e08648074145d18c538731c2be4215.jpg",
+            "alt": ""
+        }
     ],
     "links": [
         "https://youtu.be/BPl7D20F2mE"

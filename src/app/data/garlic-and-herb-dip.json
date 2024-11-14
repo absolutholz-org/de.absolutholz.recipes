@@ -3,7 +3,10 @@
     "category": "sauces",
     "locale": "en",
     "images": [
-        "https://www.dontgobaconmyheart.co.uk/wp-content/uploads/2020/02/garlic-and-herb-dip-3.jpg"
+        {
+            "src": "https://www.dontgobaconmyheart.co.uk/wp-content/uploads/2020/02/garlic-and-herb-dip-3.jpg",
+            "alt": ""
+        }
     ],
     "links": [
         "https://www.dontgobaconmyheart.co.uk/garlic-and-herb-dip/"

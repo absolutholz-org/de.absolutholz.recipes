@@ -3,7 +3,10 @@
     "category": "sauces",
     "locale": "en",
     "images": [
-        "https://images.openfoodfacts.org/images/products/071/563/716/1009/front_en.7.full.jpg"
+        {
+            "src": "https://images.openfoodfacts.org/images/products/071/563/716/1009/front_en.7.full.jpg",
+            "alt": ""
+        }
     ],
     "tags": [
         "savory",

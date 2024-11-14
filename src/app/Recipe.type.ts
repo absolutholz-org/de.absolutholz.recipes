@@ -1,16 +1,18 @@
-export type Unit = 'TL' | 'EL' | 'g' | 'ml' | 'pinch';
+export type Unit = "TL" | "EL" | "g" | "ml" | "pinch";
+
+export type Locale = "de" | "es" | "en";
 
 export type Category =
-  | 'appetizers'
-  | 'drinks'
-  | 'main dishes'
-  | 'salads'
-  | 'sandwiches'
-  | 'sauces'
-  | 'seasonings'
-  | 'sides'
-  | 'soups'
-  | 'sweets';
+  | "appetizers"
+  | "drinks"
+  | "main dishes"
+  | "salads"
+  | "sandwiches"
+  | "sauces"
+  | "seasonings"
+  | "sides"
+  | "soups"
+  | "sweets";
 
 type Ingredient = {
   name: string;
@@ -20,15 +22,20 @@ type Ingredient = {
   notes?: string;
 };
 
+export type RecipeImage = {
+  src: string;
+  alt: string;
+};
+
 export type Recipe = {
   slug: string;
   name: string;
   category: Category;
-  locale?: string;
+  locale?: Locale;
   ingredients: Ingredient[];
   instructions: string[];
   description?: string;
-  images?: string[];
+  images?: RecipeImage[];
   links?: string[];
   tags?: string[];
   prep_time?: number;

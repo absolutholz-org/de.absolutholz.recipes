@@ -3,7 +3,10 @@
     "category": "sweets",
     "locale": "es",
     "images": [
-        "https://i.blogs.es/6859eb/bizcocho_yogur_4_3/650_1200.jpg"
+        {
+            "src": "https://i.blogs.es/6859eb/bizcocho_yogur_4_3/650_1200.jpg",
+            "alt": ""
+        }
     ],
     "links": [
         "https://www.directoalpaladar.com/postres/bizcocho-yogur-clasico-basico-para-iniciarse-reposteria"

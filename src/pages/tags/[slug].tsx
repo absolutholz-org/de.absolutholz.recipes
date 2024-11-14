@@ -1,12 +1,12 @@
-import { PageHeadline } from '@/app/components/PageHeadline';
-import { RecipeTileList } from '@/app/components/RecipeTileList';
-import { SectionHeadline } from '@/app/components/SectionHeadline';
-import { Recipe } from '@/app/Recipe.type';
-import { SiteHeadTitle } from '@/components/SiteHeadTitle';
-import { getAllRecipes, getAllRecipeTags } from '@/lib/recipes';
-import type { GetStaticPaths, GetStaticProps } from 'next';
-import Head from 'next/head';
-import { ParsedUrlQuery } from 'querystring';
+import { RecipeTileList } from "@/app/components/RecipeTileList";
+import { SectionHeadline } from "@/app/components/SectionHeadline";
+import { Recipe } from "@/app/Recipe.type";
+import { PageHeader } from "@/components/PageHeader";
+import { SiteHeadTitle } from "@/components/SiteHeadTitle";
+import { getAllRecipes, getAllRecipeTags } from "@/lib/recipes";
+import type { GetStaticPaths, GetStaticProps } from "next";
+import Head from "next/head";
+import { ParsedUrlQuery } from "querystring";
 
 type Props = {
   tag: string;
@@ -40,11 +40,13 @@ export default function Page({ tag, recipes }: Props) {
       <Head>
         <SiteHeadTitle title={`Recipes tagged with: ${tag}`} />
       </Head>
-      <main className="container mx-auto px-4">
-        <PageHeadline text={`Tag: ${tag}`} />
+      <main>
+        <PageHeader h1={tag} />
 
-        <SectionHeadline text="Recipes" />
-        <RecipeTileList recipes={recipes} />
+        <div className="container mx-auto px-4 py-8">
+          <SectionHeadline text="Recipes" />
+          <RecipeTileList recipes={recipes} />
+        </div>
       </main>
     </>
   );

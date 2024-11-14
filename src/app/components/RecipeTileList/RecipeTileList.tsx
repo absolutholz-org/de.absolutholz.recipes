@@ -1,5 +1,5 @@
-import { RecipeTile } from '../RecipeTile';
-import { IRecipeTileList } from './RecipeTileList.types';
+import { RecipeTile } from "../RecipeTile";
+import { IRecipeTileList } from "./RecipeTileList.types";
 
 export function RecipeTileList({ recipes }: IRecipeTileList): JSX.Element {
   return (

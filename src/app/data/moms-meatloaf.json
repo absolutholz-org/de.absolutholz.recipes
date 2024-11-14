@@ -3,7 +3,10 @@
     "category": "main dishes",
     "locale": "en",
     "images": [
-        "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2024/01/Meatloaf-main-500x500.jpg"
+        {
+            "src": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2024/01/Meatloaf-main-500x500.jpg",
+            "alt": ""
+        }
     ],
     "tags": [
         "american",

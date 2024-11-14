@@ -3,7 +3,10 @@
     "category": "drinks",
     "locale": "en",
     "images": [
-        "https://s3.amazonaws.com/yummy_uploads2/blog/7482.jpg"
+        {
+            "src": "https://s3.amazonaws.com/yummy_uploads2/blog/7482.jpg",
+            "alt": ""
+        }
     ],
     "tags": [
         "sweet",

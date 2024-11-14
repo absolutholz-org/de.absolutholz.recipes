@@ -1,6 +1,6 @@
-import { PageHeadline } from '@/app/components/PageHeadline';
-import { BadgeList } from '@/components/BadgeList';
-import { getAllRecipeTags } from '@/lib/recipes';
+import { BadgeList } from "@/components/BadgeList";
+import { PageHeader } from "@/components/PageHeader";
+import { getAllRecipeTags } from "@/lib/recipes";
 
 export async function getStaticProps() {
   return {
@@ -12,23 +12,25 @@ export async function getStaticProps() {
 
 export default function Page({ tags }: { tags: string[] }) {
   return (
-    <main className="container mx-auto px-4">
-      <PageHeadline text="Tags" />
+    <main>
+      <PageHeader h1="Tags" />
 
-      <BadgeList
-        badges={tags.map((tag) => ({
-          text: tag,
-          href: {
-            pathname: '/tags/[slug]',
-            query: { slug: tag },
-          },
-          color: {
-            bg: 'bg-indigo-500',
-            border: 'border-indigo-500',
-            text: 'text-indigo-500',
-          },
-        }))}
-      />
+      <div className="container mx-auto px-4 py-8">
+        <BadgeList
+          badges={tags.map((tag) => ({
+            text: tag,
+            href: {
+              pathname: "/tags/[slug]",
+              query: { slug: tag },
+            },
+            color: {
+              bg: "bg-indigo-500",
+              border: "border-indigo-500",
+              text: "text-indigo-500",
+            },
+          }))}
+        />
+      </div>
     </main>
   );
 }

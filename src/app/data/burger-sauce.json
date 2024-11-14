@@ -3,7 +3,10 @@
     "category": "sauces",
     "locale": "en",
     "images": [
-        "https://www.dontgobaconmyheart.co.uk/wp-content/uploads/2020/03/best-burger-sauce-recipe.jpg"
+        {
+            "src": "/images/recipes/burger-sauce.jpg",
+            "alt": "Closeup shot of delicious burger sauce spread on a burger bun."
+        }
     ],
     "links": [
         "https://www.dontgobaconmyheart.co.uk/burger-sauce/"

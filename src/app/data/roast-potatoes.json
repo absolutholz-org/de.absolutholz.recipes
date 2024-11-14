@@ -3,7 +3,10 @@
     "category": "sides",
     "locale": "en",
     "images": [
-        "https://www.seriouseats.com/thmb/7id5WOmpMZdU5aF6__ZcYzBzk9M=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/20211201-crispy-roasted-potatoes-vicky-wasik-48-7bca1f8c09ee46c087b0865f9a053c45.jpg"
+        {
+            "src": "https://www.seriouseats.com/thmb/7id5WOmpMZdU5aF6__ZcYzBzk9M=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/20211201-crispy-roasted-potatoes-vicky-wasik-48-7bca1f8c09ee46c087b0865f9a053c45.jpg",
+            "alt": ""
+        }
     ],
     "links": [
         "https://www.seriouseats.com/the-best-roast-potatoes-ever-recipe"

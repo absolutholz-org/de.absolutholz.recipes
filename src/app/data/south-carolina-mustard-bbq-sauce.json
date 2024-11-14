@@ -3,7 +3,10 @@
     "category": "sauces",
     "locale": "en",
     "images": [
-        "https://selfproclaimedfoodie.com/wp-content/uploads/mustard-bbq-sauce-3.jpg"
+        {
+            "src": "https://selfproclaimedfoodie.com/wp-content/uploads/mustard-bbq-sauce-3.jpg",
+            "alt": ""
+        }
     ],
     "links": [
         "https://youtu.be/z6EqVXl6geM"

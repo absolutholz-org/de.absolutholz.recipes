@@ -3,7 +3,10 @@
     "category": "sweets",
     "locale": "en",
     "images": [
-        "https://www.momontimeout.com/wp-content/uploads/2014/10/peanut-butter-banana-chocolate-chip-muffins.jpg"
+        {
+            "src": "https://www.momontimeout.com/wp-content/uploads/2014/10/peanut-butter-banana-chocolate-chip-muffins.jpg",
+            "alt": ""
+        }
     ],
     "links": [
         "https://www.momontimeout.com/peanut-butter-banana-chocolate-chip-muffins-recipe/ "

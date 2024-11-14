@@ -3,7 +3,10 @@
     "category": "seasonings",
     "locale": "en",
     "images": [
-        "https://gimmedelicious.com/wp-content/uploads/2018/03/The-Best-Taco-Seasoning-4.jpg"
+        {
+            "src": "https://gimmedelicious.com/wp-content/uploads/2018/03/The-Best-Taco-Seasoning-4.jpg",
+            "alt": ""
+        }
     ],
     "links": [
         "https://gimmedelicious.com/the-best-homemade-taco-seasoning/"

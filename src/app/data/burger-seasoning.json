@@ -3,7 +3,10 @@
     "category": "seasonings",
     "locale": "en",
     "images": [
-        "https://www.clovermeadowsbeef.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2020/07/best-hamburger-seasoning-ground-beef-spice-blend-500x500.png.webp"
+        {
+            "src": "/images/recipes/burger-seasoning.jpg",
+            "alt": "Burger seasoning in a glass jar with a wooden spoon."
+        }
     ],
     "links": [
         "https://www.clovermeadowsbeef.com/best-hamburger-seasoning/"

@@ -1,11 +1,11 @@
-import { Category } from '@/app/Recipe.type';
+import { Category, Locale, RecipeImage } from "@/app/Recipe.type";
 
 export type IRecipeTile = {
   name: string;
   category: Category;
-  locale?: 'de' | 'es' | 'en';
+  locale?: Locale;
   slug: string;
   ingredientCount: number;
   totalTime?: number;
-  image?: string;
+  image?: RecipeImage;
 };

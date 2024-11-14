@@ -3,7 +3,10 @@
     "category": "main dishes",
     "locale": "de",
     "images": [
-        "https://www.leckerschmecker.me/wp-content/uploads/sites/6/2024/09/ofenfeta-mit-kurbis.png"
+        {
+            "src": "https://www.leckerschmecker.me/wp-content/uploads/sites/6/2024/09/ofenfeta-mit-kurbis.png",
+            "alt": ""
+        }
     ],
     "links": [
         "https://www.leckerschmecker.me/ofen-feta-mit-kuerbis-a-f/63743511429357"

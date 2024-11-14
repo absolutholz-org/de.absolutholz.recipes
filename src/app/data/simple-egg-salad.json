@@ -3,7 +3,10 @@
     "category": "sandwiches",
     "locale": "en",
     "images": [
-        "https://www.noracooks.com/wp-content/uploads/2023/07/vegan-egg-salad-8.jpg"
+        {
+            "src": "https://www.noracooks.com/wp-content/uploads/2023/07/vegan-egg-salad-8.jpg",
+            "alt": ""
+        }
     ],
     "tags": [
         "savory",

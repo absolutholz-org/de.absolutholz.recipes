@@ -3,7 +3,10 @@
     "category": "sandwiches",
     "locale": "en",
     "images": [
-        "https://www.allrecipes.com/thmb/avz80n-vn6ynQfOLSPH8KeYMmw4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/8057179-homemade-sloppy-joes-Toni-DeSantis-1x1-1-fa2175e8d9db4c32b403df1ea77dc863.jpg"
+        {
+            "src": "https://www.allrecipes.com/thmb/avz80n-vn6ynQfOLSPH8KeYMmw4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/8057179-homemade-sloppy-joes-Toni-DeSantis-1x1-1-fa2175e8d9db4c32b403df1ea77dc863.jpg",
+            "alt": ""
+        }
     ],
     "links": [
         "https://www.allrecipes.com/recipe/220182/homemade-sloppy-joes/"
