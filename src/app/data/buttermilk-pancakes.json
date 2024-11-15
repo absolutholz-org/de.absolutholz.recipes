@@ -4,8 +4,8 @@
     "locale": "en",
     "images": [
         {
-            "src": "https://www.allrecipes.com/thmb/X2cMaVGyK-DIz1B7DRoLZZujuo0=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/24530-ButtermilkPancakes-II-mfs-4X3-3385-b9e08648074145d18c538731c2be4215.jpg",
-            "alt": ""
+            "src": "/images/recipes/buttermilk-pancakes.jpg",
+            "alt": "A stack of buttermilk pancakes, golden brown and dripping with melted butter, served with a side of maple syrup"
         }
     ],
     "links": [
