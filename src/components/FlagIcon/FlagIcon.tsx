@@ -4,13 +4,13 @@ import { IFlagIcon } from "./FlagIcon.types";
  * Just use the flags from Wikipedia.
  * For example: https://en.wikipedia.org/wiki/Flag_of_Germany#/media/File:Flag_of_Germany.svg
  */
-export function FlagIcon({ src }: IFlagIcon): JSX.Element {
+export function FlagIcon({ src, label }: IFlagIcon): JSX.Element {
   switch (src) {
     case "de":
       return (
         <svg
           focusable="false"
-          aria-hidden="true"
+          aria-label={label}
           viewBox="0 0 5 3"
           height="1em"
         >
@@ -23,7 +23,7 @@ export function FlagIcon({ src }: IFlagIcon): JSX.Element {
       return (
         <svg
           focusable="false"
-          aria-hidden="true"
+          aria-label={label}
           viewBox="0 0 6 4"
           height="1em"
         >
@@ -35,7 +35,7 @@ export function FlagIcon({ src }: IFlagIcon): JSX.Element {
       return (
         <svg
           focusable="false"
-          aria-hidden="true"
+          aria-label={label}
           viewBox="0 0 6 4"
           height="1em"
         >

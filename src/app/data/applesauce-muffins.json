@@ -1,0 +1,66 @@
+{
+    "name": "Applesauce Muffins",
+    "category": "sweets",
+    "locale": "de",
+    "images": [
+        {
+            "src": "/images/recipes/applesauce-muffins.jpg",
+            "alt": "Close-up of glistening applesauce muffins on a marble countertop"
+        }
+    ],
+    "links": [
+        "https://m.focus.de/familie/eltern/genuss/lecker-fruchtige-apfelmus-muffins_id_12229878.html"
+    ],
+    "tags": [
+        "sweet",
+        "vegetarian"
+    ],
+    "prep_time": 5,
+    "cook_time": 17,
+    "servings": 6,
+    "ingredients": [
+        {
+            "quantity": 120,
+            "unit": "g",
+            "name": "Weizen- oder Dinkelmehl"
+        },
+        {
+            "quantity": 0.5,
+            "unit": "tablespoon",
+            "name": "Backpulver"
+        },
+        {
+            "quantity": 100,
+            "unit": "g",
+            "name": "Apfelmus oder Apfelmark"
+        },
+        {
+            "quantity": 50,
+            "unit": "g",
+            "name": "Zucker, alternativ Birkenzucker/Xylit"
+        },
+        {
+            "quantity": 1,
+            "name": "Ei",
+            "notes": "mittelgroß"
+        },
+        {
+            "quantity": 60,
+            "unit": "g",
+            "name": "Butter"
+        },
+        {
+            "quantity": 1,
+            "name": "Puderzucker zum Bestäuben oder eine Schokoglasur",
+            "optional": true
+        }
+    ],
+    "instructions": [
+        "Zuerst das Mehl in eine Schüssel geben und mit dem Backpulver verrühren.",
+        "In eine größere Schüssel die flüssige Butter portionieren. Zucker mit dem Schneebesen unterrühren. Apfelmus unterheben. Auch das Ei dazu schlagen und alles noch einmal miteinander verrühren.",
+        "Im nächsten Schritt die bereits vorbereitete Mehlmischung hinzu geben. Mit dem Rührgerät verrühren, bis ein homogener Teig entsteht.",
+        "Nun die Mulden der Muffinform mit Papierförmchen bestücken. Anschließend mit dem Teig befüllen. Die Förmchen sollten mit knapp zwei Drittel des Teigs gefüllt sein.",
+        "In der Form abkühlen lassen. Zum Schluss je nach Wunsch mit Puderzucker bestäuben oder mit Schokoladenglasur bestreichen.",
+        "Die Apfelmus-Muffins bei 190 Grad, Umluft 170 Grad, für 15-20 Minuten im Ofen backen. Air fryer: 160 Grad für 10 Minuten. "
+    ]
+}

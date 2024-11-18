@@ -1,0 +1,80 @@
+{
+    "name": "Klassische Kürbissuppe",
+    "category": "main dishes",
+    "locale": "de",
+    "images": [
+        {
+            "src": "/images/recipes/klassische-kuerbissuppe.jpg",
+            "alt": "Classic pumpkin soup in a white bowl"
+        }
+    ],
+    "links": [
+        "https://www.eatbetter.de/rezepte/klassische-kuerbissuppe-nach-omas-rezept"
+    ],
+    "tags": [
+        "savory",
+        "vegetarian"
+    ],
+    "prep_time": 15,
+    "cook_time": 20,
+    "servings": 4,
+    "ingredients": [
+        {
+            "quantity": 1,
+            "name": "Hokkaidokürbis",
+            "notes": "ca. 800 g"
+        },
+        {
+            "quantity": 2,
+            "name": "Kartoffeln",
+            "notes": "ca. 200 g)"
+        },
+        {
+            "quantity": 2,
+            "name": "Zwiebeln"
+        },
+        {
+            "quantity": 1,
+            "name": "Knoblauchzehe"
+        },
+        {
+            "quantity": 2,
+            "unit": "tablespoon",
+            "name": "Butter"
+        },
+        {
+            "quantity": 1,
+            "unit": "liter",
+            "name": "Gemüsebrühe"
+        },
+        {
+            "quantity": 0.5,
+            "unit": "bundle",
+            "name": "Petersilie"
+        },
+        {
+            "quantity": 100,
+            "unit": "ml",
+            "name": "Sahne"
+        },
+        {
+            "quantity": 1,
+            "name": "Salz"
+        },
+        {
+            "quantity": 1,
+            "name": "Pfeffer"
+        },
+        {
+            "quantity": 1,
+            "name": "frisch geriebene Muskatnuss"
+        }
+    ],
+    "instructions": [
+        "Kürbis waschen, entstielen und halbieren. Mithilfe eines Löffels das Fruchtfleisch des Kürbis samt Kernen entfernen. Kartoffeln schälen. Kürbishälften und Kartoffeln in grobe Stücke schneiden. Zwiebeln abziehen und würfeln, Knoblauch abziehen und fein hacken.",
+        "Butter in einem großen Topf erhitzen. Zwiebeln darin 2-3 Minuten anbraten, dann gehackten Knoblauch sowie Kürbis- und Kartoffelstücke zufügen, kurz mitbraten und mit Gemüsebrühe ablöschen.",
+        "Suppe aufkochen und bei mittlerer Hitze mit aufgelegtem Deckel ca. 20 Minuten köcheln lassen, bis Kürbis und Kartoffeln weich ist. In der Zwischenzeit Petersilie abbrausen, trocken schütteln und fein hacken.",
+        "Suppe nach Ende der Garzeit mit einem Pürierstab fein pürieren, mit Sahne verfeinern und je nach gewünschter Konsistenz noch ein wenig Wasser oder Gemüsebrühe zufügen. Fertige Suppe mit Salz, Pfeffer sowie Muskatnuss abschmecken, mit gehackter Petersilie garnieren und mit dem Vollkornbrot servieren."
+    ],
+    "notes": "Aufgrund seiner essbaren Schale entfällt beim Hokkaido-Kürbis das Schälen. Durch diese unkomplizierte Handhabbarkeit sowie kräftigen, leicht süßlichen Geschmack, ist er besonders beliebt. Ganz nebenbei liefert er noch wertvolle Mineralstoffe wie beispielsweise Magnesium und Calcium, was Muskeln und Knochen guttut."
+}

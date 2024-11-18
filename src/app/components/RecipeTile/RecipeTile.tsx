@@ -112,6 +112,9 @@ export function RecipeTile({
                 {locale === "de" && (
                   <FlagIcon src="de" label="This recipe is in german" />
                 )}
+                {locale === "fr" && (
+                  <FlagIcon src="fr" label="This recipe is in french" />
+                )}
               </span>
             </Link>
           </h3>
