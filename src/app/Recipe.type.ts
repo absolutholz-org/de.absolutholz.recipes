@@ -5,7 +5,7 @@ export type Locale = "de" | "es" | "en" | "fr";
 export type Category =
   | "appetizers"
   | "drinks"
-  | "main dishes"
+  | "mains"
   | "salads"
   | "sandwiches"
   | "sauces"

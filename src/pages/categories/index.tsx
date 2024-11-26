@@ -22,7 +22,7 @@ const categoryColors: Record<Category, CategoryColor> = {
     bg: "bg-blue-600",
     text: "text-blue-600",
   },
-  "main dishes": {
+  mains: {
     border: "border-orange-600",
     bg: "bg-orange-600",
     text: "text-orange-600",

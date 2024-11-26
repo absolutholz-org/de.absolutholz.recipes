@@ -3,61 +3,7 @@ import { IRecipeTile } from "./RecipeTile.types";
 import { Category } from "@/app/Recipe.type";
 import { Icon } from "@/components/Icon";
 import { FlagIcon } from "@/components/FlagIcon/FlagIcon";
-
-type CategoryColor = {
-  border: string;
-  bg: string;
-  text: string;
-};
-
-const categoryColors: Record<Category, CategoryColor> = {
-  appetizers: {
-    border: "border-pink-600",
-    bg: "bg-pink-600",
-    text: "text-pink-600",
-  },
-  drinks: {
-    border: "border-blue-600",
-    bg: "bg-blue-600",
-    text: "text-blue-600",
-  },
-  "main dishes": {
-    border: "border-orange-600",
-    bg: "bg-orange-600",
-    text: "text-orange-600",
-  },
-  salads: {
-    border: "border-orange-600",
-    bg: "bg-orange-600",
-    text: "text-orange-600",
-  },
-  sandwiches: {
-    border: "border-green-600",
-    bg: "bg-green-600",
-    text: "text-green-600",
-  },
-  sauces: { border: "border-red-600", bg: "bg-red-600", text: "text-red-600" },
-  seasonings: {
-    border: "border-yellow-600",
-    bg: "bg-yellow-600",
-    text: "text-yellow-600",
-  },
-  sides: {
-    border: "border-teal-600",
-    bg: "bg-teal-600",
-    text: "text-teal-600",
-  },
-  soups: {
-    border: "border-orange-600",
-    bg: "bg-orange-600",
-    text: "text-orange-600",
-  },
-  sweets: {
-    border: "border-violet-600",
-    bg: "bg-violet-600",
-    text: "text-violet-600",
-  },
-};
+import { CategoryColor, categoryColors } from "@/data-structures/Category";
 
 export function getCategoryColors(category: Category): CategoryColor {
   return categoryColors[category];
@@ -73,28 +19,30 @@ export function RecipeTile({
   totalTime,
 }: IRecipeTile): JSX.Element {
   const colors = getCategoryColors(category);
+  console.log({ colors });
   return (
-    <article className="relative">
-      <div
-        className={`rounded-lg ${colors.bg} text-white px-2 pt-1 pb-3 rounded-b-none -mb-2 text-sm`}
-      >
+    <article
+      className={`relative rounded-lg ${colors.text} p-1`}
+      style={colors.pattern}
+    >
+      <div className="text-white px-1 py-1 text-sm uppercase font-semibold">
         {category}
       </div>
+      {image && (
+        <div className="rounded-md p-1 overflow-clip bg-white dark:bg-black mb-1">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={image.src}
+            className="xaspect-video rounded-md object-cover"
+            alt={image?.alt}
+            loading="lazy"
+          />
+        </div>
+      )}
       <div
-        className={`rounded-lg ${colors.border} border-2 bg-white dark:bg-black text-black dark:text-white`}
+        className={`rounded-lg bg-white dark:bg-black text-black dark:text-white`}
       >
-        {image && (
-          <div className="rounded-md m-1 overflow-clip">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src={image.src}
-              className="xaspect-video object-cover"
-              alt={image?.alt}
-              loading="lazy"
-            />
-          </div>
-        )}
-        <div className="m-2">
+        <div className="p-1">
           <h3 className="text-md capitalize">
             <Link
               href={{

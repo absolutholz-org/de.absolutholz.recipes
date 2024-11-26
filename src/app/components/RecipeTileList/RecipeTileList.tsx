@@ -1,10 +1,10 @@
-import { RecipeTile } from "../RecipeTile";
+import { RecipeTile } from "@/components/RecipeTile";
 import { IRecipeTileList } from "./RecipeTileList.types";
 
 export function RecipeTileList({ recipes }: IRecipeTileList): JSX.Element {
   return (
     <ul
-      className="list-none columns-2 sm:columns-3 md:columns-4 lg:columns-5 xl:columns-6 gap-6"
+      className="list-none columns-2 sm:columns-3 md:columns-4 lg:columns-5 xl:columns-6 gap-4 gap-x-3 sm:gap-x-4"
       role="list"
     >
       {recipes.map(

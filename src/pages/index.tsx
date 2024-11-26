@@ -4,67 +4,13 @@ import { Category, Recipe } from "@/app/Recipe.type";
 import { BadgeList } from "@/components/BadgeList";
 import { PageContainer } from "@/components/PageContainer";
 import { PageHeader } from "@/components/PageHeader";
+import { CategoryColor, categoryColors } from "@/data-structures/Category";
 import {
   CategoriesWithCount,
   getAllRecipeCategories,
   getAllRecipes,
   getAllRecipeTags,
 } from "@/lib/recipes";
-
-type CategoryColor = {
-  border: string;
-  bg: string;
-  text: string;
-};
-
-const categoryColors: Record<Category, CategoryColor> = {
-  appetizers: {
-    border: "border-pink-600",
-    bg: "bg-pink-600",
-    text: "text-pink-600",
-  },
-  drinks: {
-    border: "border-blue-600",
-    bg: "bg-blue-600",
-    text: "text-blue-600",
-  },
-  "main dishes": {
-    border: "border-orange-600",
-    bg: "bg-orange-600",
-    text: "text-orange-600",
-  },
-  salads: {
-    border: "border-orange-600",
-    bg: "bg-orange-600",
-    text: "text-orange-600",
-  },
-  sandwiches: {
-    border: "border-green-600",
-    bg: "bg-green-600",
-    text: "text-green-600",
-  },
-  sauces: { border: "border-red-600", bg: "bg-red-600", text: "text-red-600" },
-  seasonings: {
-    border: "border-yellow-600",
-    bg: "bg-yellow-600",
-    text: "text-yellow-600",
-  },
-  sides: {
-    border: "border-teal-600",
-    bg: "bg-teal-600",
-    text: "text-teal-600",
-  },
-  soups: {
-    border: "border-orange-600",
-    bg: "bg-orange-600",
-    text: "text-orange-600",
-  },
-  sweets: {
-    border: "border-violet-600",
-    bg: "bg-violet-600",
-    text: "text-violet-600",
-  },
-};
 
 export function getCategoryColors(category: Category): CategoryColor {
   return categoryColors[category];
