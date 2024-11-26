@@ -1,0 +1,69 @@
+{
+    "name": "Cookie cake fondant",
+    "category": "sweets",
+    "locale": "fr",
+    "images": [
+        {
+            "src": "/images/recipes/cookie-cake-fondant.jpg",
+            "alt": "A close-up of a small slice of a light brown cookie cake, without any frosting, showing melted chunks of dark chocolate throughout."
+        }
+    ],
+    "links": [
+        "https://www.instagram.com/reel/C7uT9OTtAKv/?igsh=MXd0Z3cwdHphMWoxbw%3D%3D"
+    ],
+    "tags": [
+        "sweet",
+        "vegetarian"
+    ],
+    "prep_time": 25,
+    "cook_time": 15,
+    "servings": 6,
+    "ingredients": [
+        {
+            "quantity": 150,
+            "unit": "g",
+            "name": "beurre mou"
+        },
+        {
+            "quantity": 100,
+            "unit": "g",
+            "name": "sucre brun",
+            "notes": "type vergeoise ou sucre complet"
+        },
+        {
+            "quantity": 50,
+            "unit": "g",
+            "name": "sucre blanc"
+        },
+        {
+            "quantity": 2,
+            "name": "oeufs "
+        },
+        {
+            "quantity": 200,
+            "unit": "g",
+            "name": "farine"
+        },
+        {
+            "quantity": 100,
+            "unit": "g",
+            "name": "chocolat noir haché"
+        },
+        {
+            "quantity": 1,
+            "unit": "tablespoon",
+            "name": "arôme vanille"
+        }
+    ],
+    "instructions": [
+        "Mélanger le beurre avec les sucre jusqu’à l’obtention d’une texture crémeuse.",
+        "Ajouter les oeufs et bien battre la préparation.",
+        "Ajouter la farine, mélanger puis ajouter le chocolat et mélanger à nouveau.",
+        "Verser la pâte dans un moule beurré. Il fait bien la tasser et mettre à niveau à l’aide d’une cuillère.",
+        "Faire cuire au moins 15 min à 190 degrés. Si vous souhaitez un cookie moins fondant, augmentez le temps de cuisson.",
+        "Laisser refroidir 10min et démouler délicatement. J’utilise un moule à charnière pour faciliter cette étape."
+    ],
+    "notes": [
+        "moule 20cm de diamètre"
+    ]
+}
