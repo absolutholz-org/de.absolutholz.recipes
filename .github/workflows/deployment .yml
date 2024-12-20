@@ -1,0 +1,43 @@
+name: Deploy Recipes App
+
+on:
+  push:
+    branches:
+      - main # or your main branch name
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18" # or your preferred Node.js version
+
+      - name: Install dependencies
+        run: npm ci # or yarn install
+
+      - name: Build the app
+        run: npm run build
+
+      - name: Deploy via SSH
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.WEBGO_SFTP_HOST }}
+          username: ${{ secrets.WEBGO_SFTP_USERNAME }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: ${{ secrets.SSH_PORT || 22 }} # Default SSH port is 22
+          script: |
+            cd /home/www/de.absolutholz.recipes # Replace with your remote path
+            # Stop the current process if it is running
+            if pm2 list | grep "recipes"; then
+              pm2 stop recipes
+            fi
+            rm -rf .next
+            npm install --omit=dev
+            npm run build
+            pm2 startOrRestart ecosystem.config.js # Or your preferred method to start the app
