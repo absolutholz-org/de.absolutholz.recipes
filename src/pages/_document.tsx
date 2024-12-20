@@ -7,7 +7,6 @@ export default function Document() {
   return (
     <Html>
       <Head>
-        <title>absolutholz Recipes</title>
         <SiteHeadTitle />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link

@@ -4,6 +4,7 @@ import { Category, Recipe } from "@/app/Recipe.type";
 import { BadgeList } from "@/components/BadgeList";
 import { PageContainer } from "@/components/PageContainer";
 import { PageHeader } from "@/components/PageHeader";
+import { SiteHeadTitle } from "@/components/SiteHeadTitle";
 import { CategoryColor, categoryColors } from "@/data-structures/Category";
 import {
   CategoriesWithCount,
@@ -11,6 +12,7 @@ import {
   getAllRecipes,
   getAllRecipeTags,
 } from "@/lib/recipes";
+import Head from "next/head";
 
 export function getCategoryColors(category: Category): CategoryColor {
   return categoryColors[category];
@@ -36,47 +38,54 @@ export default function Page({
   categories: CategoriesWithCount;
 }) {
   return (
-    <main>
-      <PageHeader h1="Recipes" />
+    <>
+      <Head>
+        <title>absolutholz Recipes</title>
+        <SiteHeadTitle />
+      </Head>
 
-      <PageContainer>
-        <div className="py-8">
-          <RecipeTileList recipes={recipes} />
+      <main>
+        <PageHeader h1="Recipes" />
 
-          <SectionHeadline text="Categories" />
-          <BadgeList
-            badges={Object.entries(categories).map(([category, count]) => ({
-              text: category,
-              href: {
-                pathname: "/categories/[slug]",
-                query: { slug: category },
-              },
-              color: {
-                bg: getCategoryColors(category as Category).bg,
-                border: getCategoryColors(category as Category).border,
-                text: getCategoryColors(category as Category).text,
-              },
-              count,
-            }))}
-          />
+        <PageContainer>
+          <div className="py-8">
+            <RecipeTileList recipes={recipes} />
 
-          <SectionHeadline text="Tags" />
-          <BadgeList
-            badges={tags.map((tag) => ({
-              text: tag,
-              href: {
-                pathname: "/tags/[slug]",
-                query: { slug: tag },
-              },
-              color: {
-                bg: "bg-indigo-500",
-                border: "border-indigo-500",
-                text: "text-indigo-500",
-              },
-            }))}
-          />
-        </div>
-      </PageContainer>
-    </main>
+            <SectionHeadline text="Categories" />
+            <BadgeList
+              badges={Object.entries(categories).map(([category, count]) => ({
+                text: category,
+                href: {
+                  pathname: "/categories/[slug]",
+                  query: { slug: category },
+                },
+                color: {
+                  bg: getCategoryColors(category as Category).bg,
+                  border: getCategoryColors(category as Category).border,
+                  text: getCategoryColors(category as Category).text,
+                },
+                count,
+              }))}
+            />
+
+            <SectionHeadline text="Tags" />
+            <BadgeList
+              badges={tags.map((tag) => ({
+                text: tag,
+                href: {
+                  pathname: "/tags/[slug]",
+                  query: { slug: tag },
+                },
+                color: {
+                  bg: "bg-indigo-500",
+                  border: "border-indigo-500",
+                  text: "text-indigo-500",
+                },
+              }))}
+            />
+          </div>
+        </PageContainer>
+      </main>
+    </>
   );
 }
