@@ -1,3 +1,2 @@
-export type ISiteHeadTitle = {
-  title?: string;
-};
+// eslint-disable-next-line @typescript-eslint/no-empty-object-type
+export type ISiteHeadTitle = {};

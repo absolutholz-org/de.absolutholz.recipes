@@ -39,7 +39,8 @@ export default function Page({ tag, recipes }: Props) {
   return (
     <>
       <Head>
-        <SiteHeadTitle title={`Recipes tagged with: ${tag}`} />
+        <title>Recipes tagged with: {tag} @ absolutholz Recipes</title>
+        <SiteHeadTitle />
       </Head>
       <main>
         <PageHeader h1={tag} />

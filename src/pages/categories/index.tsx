@@ -3,7 +3,9 @@ import { Category } from "@/app/Recipe.type";
 import { BadgeList } from "@/components/BadgeList";
 import { PageContainer } from "@/components/PageContainer";
 import { PageHeader } from "@/components/PageHeader";
+import { SiteHeadTitle } from "@/components/SiteHeadTitle";
 import { CategoriesWithCount, getAllRecipeCategories } from "@/lib/recipes";
+import Head from "next/head";
 
 type CategoryColor = {
   border: string;
@@ -78,29 +80,35 @@ export default function Page({
   categories: CategoriesWithCount;
 }) {
   return (
-    <main>
-      <PageHeader h1="Categories" />
+    <>
+      <Head>
+        <title>Recipe Categories @ absolutholz Recipes</title>
+        <SiteHeadTitle />
+      </Head>
+      <main>
+        <PageHeader h1="Categories" />
 
-      <PageContainer>
-        <div className="py-8">
-          <SectionHeadline text="Categories" />
-          <BadgeList
-            badges={Object.entries(categories).map(([category, count]) => ({
-              text: category,
-              href: {
-                pathname: "/categories/[slug]",
-                query: { slug: category },
-              },
-              color: {
-                bg: getCategoryColors(category as Category).bg,
-                border: getCategoryColors(category as Category).border,
-                text: getCategoryColors(category as Category).text,
-              },
-              count,
-            }))}
-          />
-        </div>
-      </PageContainer>
-    </main>
+        <PageContainer>
+          <div className="py-8">
+            <SectionHeadline text="Categories" />
+            <BadgeList
+              badges={Object.entries(categories).map(([category, count]) => ({
+                text: category,
+                href: {
+                  pathname: "/categories/[slug]",
+                  query: { slug: category },
+                },
+                color: {
+                  bg: getCategoryColors(category as Category).bg,
+                  border: getCategoryColors(category as Category).border,
+                  text: getCategoryColors(category as Category).text,
+                },
+                count,
+              }))}
+            />
+          </div>
+        </PageContainer>
+      </main>
+    </>
   );
 }

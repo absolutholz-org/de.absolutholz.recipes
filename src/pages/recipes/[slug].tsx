@@ -36,7 +36,8 @@ export default function Page({ recipe }: { recipe: Recipe }) {
   return (
     <>
       <Head>
-        <SiteHeadTitle title={recipe.name} />
+        <title>{recipe.name} @ absolutholz Recipes</title>
+        <SiteHeadTitle />
       </Head>
       <main>
         <PageHeader h1={recipe.name} image={recipe.images?.[0].src} />

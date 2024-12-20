@@ -35,7 +35,6 @@ export default function Page({
   tags: string[];
   categories: CategoriesWithCount;
 }) {
-  console.log({ categories });
   return (
     <main>
       <PageHeader h1="Recipes" />

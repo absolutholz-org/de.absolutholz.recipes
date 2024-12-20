@@ -41,7 +41,10 @@ export default function Page({ category, recipes }: Props) {
   return (
     <>
       <Head>
-        <SiteHeadTitle title={`Recipes from the category: ${category}`} />
+        <title>
+          Recipes from the category: {category} @ absolutholz Recipes
+        </title>
+        <SiteHeadTitle />
       </Head>
       <main>
         <PageHeader h1={category} />

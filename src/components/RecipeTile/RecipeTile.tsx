@@ -19,7 +19,7 @@ export function RecipeTile({
   totalTime,
 }: IRecipeTile): JSX.Element {
   const colors = getCategoryColors(category);
-  console.log({ colors });
+
   return (
     <article
       className={`relative rounded-lg ${colors.text} p-1`}
