@@ -24,7 +24,7 @@ jobs:
       - name: Build the app
         run: npm run build
 
-      - name: Deploy via SSH
+      - name: Deploy to server via rsync
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.WEBGO_SFTP_HOST }}
@@ -32,12 +32,12 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: ${{ secrets.SSH_PORT || 22 }} # Default SSH port is 22
           script: |
-            cd /home/www/de.absolutholz.recipes # Replace with your remote path
-            # Stop the current process if it is running
-            if pm2 list | grep "recipes"; then
-              pm2 stop recipes
-            fi
-            rm -rf .next
-            npm install --omit=dev
-            npm run build
-            pm2 startOrRestart ecosystem.config.js # Or your preferred method to start the app
+            # Create deployment directory if it doesn't exist
+            mkdir -p /home/www/de.absolutholz.recipes
+            # Rsync the build output
+            rsync -avz --delete ./out/ ${{ secrets.WEBGO_SFTP_USERNAME }}@${{ secrets.WEBGO_SFTP_HOST }}:/home/www/de.absolutholz.recipes
+            # Optionally restart your server (e.g., PM2, systemd)
+            # ssh ${{ secrets.WEBGO_SFTP_USERNAME }}@${{ secrets.WEBGO_SFTP_HOST }} "pm2 restart your-app-name || systemctl restart your-service-name"
+          #optional: if you need to execute commands before rsync
+          # before_script: |
+          #     ssh ${{ secrets.SERVER_USERNAME }}@${{ secrets.SERVER_IP }} "mkdir -p /home/www/de.absolutholz.recipes"
