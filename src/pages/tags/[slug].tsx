@@ -36,6 +36,8 @@ export const getStaticProps = (async (context) => {
 }) satisfies GetStaticProps<Props>;
 
 export default function Page({ tag, recipes }: Props) {
+  if (!recipes || !tag) return null;
+
   return (
     <>
       <Head>

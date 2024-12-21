@@ -33,6 +33,8 @@ export const getStaticProps = (async (context) => {
 }>;
 
 export default function Page({ recipe }: { recipe: Recipe }) {
+  if (!recipe) return null;
+
   return (
     <>
       <Head>
