@@ -36,7 +36,10 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: ${{ secrets.WEBGO_SFTP_PORT || 22 }}
           script: |
+            echo "Current working directory on server: $(pwd)"
+            ls -al /path/to/your/webgo/directory
+            ls -al /path/to/your/webgo/directory/public
             cd /home/www/de.absolutholz.recipes
-            rm -rf public
-            mkdir -p public
-            rsync -avz --delete dist/ public/ # Copy the contents of dist to public
+            rm -rf public/*
+            rsync -avz --delete dist/ public/
+            ls -al public
