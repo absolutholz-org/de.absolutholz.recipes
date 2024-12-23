@@ -34,18 +34,6 @@ jobs:
           port: ${{ secrets.WEBGO_SFTP_PORT || 22 }}
           script: |
             cd /home/www/de.absolutholz.recipes
-            rm -rf public # Remove old files
-            mkdir -p public # Create the public directory if it doesn't exist
-            tar -xzf deploy.tar.gz -C public # Extract the archive directly into public
-            rm deploy.tar.gz
-      - name: Create tar archive
-        run: tar -czvf deploy.tar.gz dist # Create a compressed archive of the dist directory
-      - name: Upload Artifact
-        uses: actions/upload-artifact@v3
-        with:
-          name: next-build
-          path: deploy.tar.gz
-      - name: Download Artifact
-        uses: actions/download-artifact@v3
-        with:
-          name: next-build
+            rm -rf public
+            mkdir -p public
+            rsync -avz --delete dist/ public/ # Copy the contents of dist to public
