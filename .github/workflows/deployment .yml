@@ -37,8 +37,8 @@ jobs:
           port: ${{ secrets.WEBGO_SFTP_PORT || 22 }}
           script: |
             echo "Current working directory on server: $(pwd)"
-            ls -al /path/to/your/webgo/directory
-            ls -al /path/to/your/webgo/directory/public
+            ls -al /home/www/de.absolutholz.recipes
+            ls -al /home/www/de.absolutholz.recipes/public
             cd /home/www/de.absolutholz.recipes
             rm -rf public/*
             rsync -avz --delete dist/ public/
