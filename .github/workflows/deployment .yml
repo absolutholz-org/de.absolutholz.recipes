@@ -25,9 +25,6 @@ jobs:
       - name: Build the app
         run: npm run build
 
-      - name: Export Static Site
-        run: npm run export
-
       - name: Deploy via SSH to Webgo
         uses: appleboy/ssh-action@master
         with:
@@ -38,4 +35,4 @@ jobs:
           script: |
             cd /home/www/de.absolutholz.recipes
             rm -rf public # Remove old files
-            mv out public # Move the exported files to the correct directory
+            mv dist public # Move the exported files to the correct directory

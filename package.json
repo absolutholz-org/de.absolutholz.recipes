@@ -7,7 +7,6 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "next export",
     "storybook": "storybook dev -p 3001",
     "build-storybook": "storybook build"
   },
