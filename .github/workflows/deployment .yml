@@ -3,11 +3,12 @@ name: Deploy Recipes App
 on:
   push:
     branches:
-      - main # or your main branch name
+      - main
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[skip ci]')" # Skip ci if the commit message contains [skip ci]
 
     steps:
       - name: Checkout code
@@ -16,28 +17,25 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: "18" # or your preferred Node.js version
+          node-version: "18"
 
       - name: Install dependencies
-        run: npm ci # or yarn install
+        run: npm ci
 
       - name: Build the app
         run: npm run build
 
-      - name: Deploy to server via rsync
+      - name: Export Static Site
+        run: npm run export
+
+      - name: Deploy via SSH to Webgo
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.WEBGO_SFTP_HOST }}
           username: ${{ secrets.WEBGO_SFTP_USERNAME }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
-          port: ${{ secrets.SSH_PORT || 22 }} # Default SSH port is 22
+          port: ${{ secrets.WEBGO_SFTP_PORT || 22 }}
           script: |
-            # Create deployment directory if it doesn't exist
-            mkdir -p /home/www/de.absolutholz.recipes
-            # Rsync the build output
-            rsync -avz --delete ./out/ ${{ secrets.WEBGO_SFTP_USERNAME }}@${{ secrets.WEBGO_SFTP_HOST }}:/home/www/de.absolutholz.recipes
-            # Optionally restart your server (e.g., PM2, systemd)
-            # ssh ${{ secrets.WEBGO_SFTP_USERNAME }}@${{ secrets.WEBGO_SFTP_HOST }} "pm2 restart your-app-name || systemctl restart your-service-name"
-          #optional: if you need to execute commands before rsync
-          # before_script: |
-          #     ssh ${{ secrets.SERVER_USERNAME }}@${{ secrets.SERVER_IP }} "mkdir -p /home/www/de.absolutholz.recipes"
+            cd /home/www/de.absolutholz.recipes
+            rm -rf public # Remove old files
+            mv out public # Move the exported files to the correct directory
