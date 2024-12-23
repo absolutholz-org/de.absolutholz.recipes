@@ -25,21 +25,7 @@ jobs:
       - name: Build the app
         run: npm run build
 
-      - name: List files after build
-        run: ls -al && ls -al dist || true # List all files and check dist
-
       - name: Deploy via SSH to Webgo
-        uses: appleboy/ssh-action@master
-        with:
-          host: ${{ secrets.WEBGO_SFTP_HOST }}
-          username: ${{ secrets.WEBGO_SFTP_USERNAME }}
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
-          port: ${{ secrets.WEBGO_SFTP_PORT || 22 }}
-          working-directory: ./
-          script: |
-            echo "Current working directory on server: $(pwd)"
-            ls -al /home/www/de.absolutholz.recipes
-            ls -al /home/www/de.absolutholz.recipes/public
-            rm -rf /home/www/de.absolutholz.recipes/public/*
-            rsync -avz --delete dist/ /home/www/de.absolutholz.recipes/public/
-            ls -al /home/www/de.absolutholz.recipes/public
+        run: |
+          ssh -i ${{ secrets.SSH_PRIVATE_KEY }} -p ${{ secrets.WEBGO_SFTP_PORT || 22 }} ${{ secrets.WEBGO_SFTP_USERNAME }}@${{ secrets.WEBGO_SFTP_HOST }} "mkdir -p /home/www/de.absolutholz.recipes/public && rm -rf /home/www/de.absolutholz.recipes/public/*"
+          rsync -avz --delete -e "ssh -i ${{ secrets.SSH_PRIVATE_KEY }} -p ${{ secrets.WEBGO_SFTP_PORT || 22 }}" dist/ ${{ secrets.WEBGO_SFTP_USERNAME }}@${{ secrets.WEBGO_SFTP_HOST }}:/home/www/de.absolutholz.recipes/public/
