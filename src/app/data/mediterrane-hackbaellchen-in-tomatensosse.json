@@ -1,0 +1,121 @@
+{
+    "name": "Mediterrane Hackbällchen in Tomatensoße",
+    "category": "mains",
+    "locale": "de",
+    "images": [
+        {
+            "src": "/images/recipes/mediterrane-hackbaellchen-in-tomatensosse.jpg",
+            "alt": "A close-up of a plate of Mediterrane Hackbällchen in Tomatensoße with a vibrant orange sauce featuring slices of sweet cherry tomatoes and chunks of tender zucchini"
+        }
+    ],
+    "links": [
+        "https://www.leckerschmecker.me/mediterrane-hackbaellchen-in-tomatensosse-a-r/63743511423868"
+    ],
+    "tags": [],
+    "prep_time": 10,
+    "cook_time": 15,
+    "servings": 6,
+    "ingredients": [
+        {
+            "quantity": 2,
+            "name": "Knoblauchzehen"
+        },
+        {
+            "quantity": 400,
+            "unit": "g",
+            "name": "Rinderhack"
+        },
+        {
+            "quantity": 30,
+            "unit": "g",
+            "name": "Paniermehl"
+        },
+        {
+            "quantity": 2,
+            "name": "Eier"
+        },
+        {
+            "quantity": 1,
+            "unit": "tablespoon",
+            "name": "gehackte Petersilie"
+        },
+        {
+            "quantity": 1,
+            "unit": "teaspoon",
+            "name": "getrockneter Oregano"
+        },
+        {
+            "quantity": 200,
+            "unit": "g",
+            "name": "Parmesan"
+        },
+        {
+            "quantity": 1,
+            "name": "Salz und Pfeffer"
+        },
+        {
+            "quantity": 2,
+            "unit": "tablespoon",
+            "name": "Olivenöl"
+        },
+        {
+            "quantity": 500,
+            "unit": "g",
+            "name": "Kirschtomaten"
+        },
+        {
+            "quantity": 2,
+            "name": "Zucchini"
+        },
+        {
+            "quantity": 1,
+            "name": "gelbe Paprika"
+        },
+        {
+            "quantity": 1,
+            "name": "große Zwiebel"
+        },
+        {
+            "quantity": 2,
+            "unit": "tablespoon",
+            "name": "Olivenöl"
+        },
+        {
+            "quantity": 1,
+            "unit": "tablespoon",
+            "name": "Tomatenmark"
+        },
+        {
+            "quantity": 1,
+            "unit": "teaspoon",
+            "name": "Oregano"
+        },
+        {
+            "quantity": 1,
+            "unit": "pinch",
+            "name": "Paprikapulver edelsüß"
+        },
+        {
+            "quantity": 500,
+            "unit": "ml",
+            "name": "Sahne"
+        },
+        {
+            "quantity": 1,
+            "name": "Salz und Pfeffer"
+        },
+        {
+            "quantity": 1,
+            "unit": "handful",
+            "name": "Basilikum"
+        }
+    ],
+    "instructions": [
+        "Ziehe den Knoblauch ab und hacke ihn. Vermenge Rinderhack mit Paniermehl, den Eiern, Petersilie, Oregano, Knoblauch, dem geriebenem Parmesan sowie Salz und Pfeffer. Knete mit den Händen alles kurz durch und forme dann eine gerade Anzahl gleich großer Bällchen daraus.",
+        "Erhitze Olivenöl in einer Pfanne und brate die Hackbällchen darin von allen Seiten braun an. Nimm sie anschließend heraus und stelle sie beiseite.",
+        "Wasche das Gemüse. Halbiere die Kirschtomaten. Entferne die Enden der Zucchini und schneide sie in Stücke. Teile die Paprika, entferne die Kerne und schneide sie in Stücke.",
+        "Ziehe die Zwiebel ab und schneide sie in feine Würfel.",
+        "Erhitze frisches Öl in der Pfanne und dünste die Zwiebel darin an. Füge das Tomatenmark hinzu und brate es kurz mit an. Füge Tomaten, Zucchini und Paprika hinzu und brate sie ebenfalls für 2 Minuten mit an. Rühre Oregano und Paprikapulver unter und lösche mit der Sahne ab. Verrühre alles gut miteinander, lass die Soße auf niedriger Stufe ca. 5 Minuten köcheln und schmecke dann mit Salz und Pfeffer ab. Ist die Konsistenz der Soße etwas zu dick, gieße etwas Milch zum Verdünnen hinzu.",
+        "Gib die Hackbällchen wieder in die Soße und wärme sie darin noch einmal auf. Zupfe die Basilikumblätter von den Stielen, hacke die grob und streue sie vor dem Servieren über die Hackbällchen."
+    ]
+}
