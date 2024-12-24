@@ -1,0 +1,91 @@
+{
+    "name": "Spekulatius-Muffins",
+    "category": "sweets",
+    "locale": "de",
+    "images": [
+        {
+            "src": "/images/recipes/applesauce-muffins.jpg",
+            "alt": "Freshly baked Spekulatius-Muffins, their tops adorned with irregular pieces of crisp Spekulatius cookies, in a vintage copper muffin pan"
+        }
+    ],
+    "links": [
+        "https://www.leckerschmecker.me/spekulatius-muffins-a-b/63743511460640"
+    ],
+    "tags": [
+        "sweet",
+        "vegetarian"
+    ],
+    "prep_time": 15,
+    "cook_time": 20,
+    "servings": 12,
+    "ingredients": [
+        {
+            "quantity": 200,
+            "unit": "g",
+            "name": "Mehl"
+        },
+        {
+            "quantity": 100,
+            "unit": "g",
+            "name": "gemahlene Mandeln"
+        },
+        {
+            "quantity": 2,
+            "unit": "teaspoon",
+            "name": "Backpulver"
+        },
+        {
+            "quantity": 1,
+            "unit": "teaspoon",
+            "name": "Natron"
+        },
+        {
+            "quantity": 2,
+            "unit": "teaspoon",
+            "name": "Spekulatiusgewürz"
+        },
+        {
+            "quantity": 1,
+            "unit": "prise",
+            "name": "Salz"
+        },
+        {
+            "quantity": 2,
+            "name": "Eier"
+        },
+        {
+            "quantity": 150,
+            "unit": "g",
+            "name": "brauner Zucker"
+        },
+        {
+            "quantity": 80,
+            "unit": "ml",
+            "name": "Pflanzenöl"
+        },
+        {
+            "quantity": 150,
+            "unit": "ml",
+            "name": "Buttermilch"
+        },
+        {
+            "quantity": 100,
+            "unit": "g",
+            "name": "Spekulatius-Kekse",
+            "notes": "zerbröselt"
+        },
+        {
+            "quantity": 50,
+            "unit": "g",
+            "name": "Spekulatius-Kekse",
+            "notes": "zerbröselt"
+        }
+    ],
+    "instructions": [
+        "Heize den Backofen auf 180 °C Ober- und Unterhitze vor. Lege die Muffinform mit Papierförmchen aus.",
+        "Mische Mehl, gemahlene Mandeln, Backpulver, Natron, Spekulatiusgewürz und Salz in einer großen Schüssel. Schlage in einer zweiten Schüssel die Eier mit dem braunen Zucker schaumig. Gib das Öl und die Buttermilch hinzu und rühre alles glatt.",
+        "Hebe die trockenen Zutaten vorsichtig unter die flüssige Mischung und verrühre alles kurz miteinander zu einem glatten Teig. Zerbrösele die Spekulatius-Kekse und rühre sie ebenfalls in den Teig.",
+        "Verteile den Teig gleichmäßig in die Papierförmchen und backe die Muffins für 20 Minuten im Ofen goldbraun. Mache die Stäbchenprobe, um zu überprüfen, ob der Teig durch ist.",
+        "Lass die Muffins nach dem Backen kurz auskühlen und bestreue sie dann mit zerbröselten Spekulatiusstücken."
+    ]
+}
