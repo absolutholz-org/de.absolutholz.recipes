@@ -1,0 +1,141 @@
+{
+    "name": "Zimtschnecken  Muffins",
+    "category": "sweets",
+    "locale": "de",
+    "images": [
+        {
+            "src": "/images/recipes/zimtschnecken-muffins.jpg",
+            "alt": "Closeup shot of Zimtschnecken muffins with cinnamon crumble topping, their flat surface a sharp contrast to traditional cinnamon swirls"
+        }
+    ],
+    "links": [
+        "https://m.focus.de/familie/eltern/genuss/lecker-fruchtige-apfelmus-muffins_id_12229878.html"
+    ],
+    "tags": [
+        "muffins",
+        "vegetarian"
+    ],
+    "prep_time": 20,
+    "cook_time": 25,
+    "servings": 12,
+    "ingredients": [
+        {
+            "quantity": 250,
+            "unit": "g",
+            "name": "Mehl",
+            "notes": "Für den Teig"
+        },
+        {
+            "quantity": 100,
+            "unit": "g",
+            "name": "Zucker",
+            "notes": "Für den Teig"
+        },
+        {
+            "quantity": 1,
+            "unit": "Päckchen",
+            "name": "Vanillezucker",
+            "notes": "Für den Teig"
+        },
+        {
+            "quantity": 2,
+            "unit": "TL",
+            "name": "Backpulver",
+            "notes": "Für den Teig"
+        },
+        {
+            "quantity": 1,
+            "unit": "Prise",
+            "name": "Salz",
+            "notes": "Für den Teig"
+        },
+        {
+            "quantity": 120,
+            "unit": "ml",
+            "name": "Milch",
+            "notes": "Für den Teig"
+        },
+        {
+            "quantity": 80,
+            "unit": "g",
+            "name": "Butter, geschmolzen",
+            "notes": "Für den Teig"
+        },
+        {
+            "quantity": 2,
+            "name": "Eier",
+            "notes": "Für den Teig"
+        },
+        {
+            "quantity": 2,
+            "unit": "TL",
+            "name": "Zimt",
+            "notes": "Für den Teig"
+        },
+        {
+            "quantity": 100,
+            "unit": "g",
+            "name": "brauner Zucker",
+            "notes": "Für den Teig"
+        },
+        {
+            "quantity": 50,
+            "unit": "g",
+            "name": "Butter, weich",
+            "notes": "Für die Füllung"
+        },
+        {
+            "quantity": 50,
+            "unit": "g",
+            "name": "brauner Zucker",
+            "notes": "Für die Füllung"
+        },
+        {
+            "quantity": 1.5,
+            "unit": "TL",
+            "name": "Zimt",
+            "notes": "Für die Füllung"
+        },
+        {
+            "quantity": 50,
+            "unit": "g",
+            "name": "Mehl",
+            "notes": "Für den Crumble"
+        },
+        {
+            "quantity": 50,
+            "unit": "g",
+            "name": "Zucker",
+            "notes": "Für den Crumble"
+        },
+        {
+            "quantity": 40,
+            "unit": "g",
+            "name": "Butter, kalt",
+            "notes": "Für den Crumble"
+        },
+        {
+            "quantity": 1,
+            "unit": "TL",
+            "name": "Zimt",
+            "notes": "Für den Crumble"
+        },
+        {
+            "quantity": 50,
+            "unit": "g",
+            "name": "Ei",
+            "notes": "mittelgroß",
+            "optional": true
+        }
+    ],
+    "instructions": [
+        "Ofen auf 180 °C vorheizen. Ein Muffinblech mit Förmchen auslegen.",
+        "Mehl, Zucker, Vanillezucker, Backpulver und Salz in einer Schüssel vermengen.",
+        "In einer separaten Schüssel Milch, geschmolzene Butter und Eier verrühren, dann zur Mehlmischung geben. Alles zu einem glatten Teig vermengen.",
+        "Weiche Butter, braunen Zucker und Zimt in einer kleinen Schüssel verrühren.",
+        "Den Muffinteig zur Hälfte in die Förmchen füllen, etwas von der Zimtfüllung darüber geben und dann den restlichen Teig darauf verteilen.",
+        "Für den Crumble Mehl, Zucker, Zimt und kalte Butter mit den Händen zu Streuseln verkneten. Die Streusel großzügig über die Muffins streuen.",
+        "Die Muffins im vorgeheizten Ofen ca. 25-30 Minuten backen, bis sie goldbraun sind und der Crumble schön knusprig ist.",
+        "Nach dem Backen etwas abkühlen lassen und genießen!"
+    ]
+}
