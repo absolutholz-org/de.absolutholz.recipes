@@ -1,0 +1,59 @@
+{
+    "name": "Crispy Egg Cheese Toast",
+    "category": "sandwiches",
+    "locale": "en",
+    "images": [
+        {
+            "src": "/images/recipes/crispy-egg-cheese-toast.jpg",
+            "alt": "A freshly baked crispy egg and cheese toast in the oven, featuring two slices of toasted bread with a slice of ham and melted cheese in between, topped with a sunny side up egg and surrounded by shredded mozzarella cheese"
+        }
+    ],
+    "links": [
+        "https://youtu.be/YYUhtNe8sBg?si=JBHcH_4pkZqBOEmX"
+    ],
+    "tags": [
+        "breakfast"
+    ],
+    "prep_time": 5,
+    "cook_time": 15,
+    "servings": 1,
+    "ingredients": [
+        {
+            "quantity": 2,
+            "name": "Sliced bread"
+        },
+        {
+            "quantity": 1,
+            "name": "Ham"
+        },
+        {
+            "quantity": 1,
+            "name": "Cheese, sliced"
+        },
+        {
+            "quantity": 1,
+            "name": "Mozzarella, shredded"
+        },
+        {
+            "quantity": 1,
+            "name": "Egg"
+        },
+        {
+            "quantity": 1,
+            "name": "Salt, pepper, parsley"
+        },
+        {
+            "quantity": 1,
+            "unit": "tablespoon",
+            "name": "Mayonnaise or garlic, butter and honey"
+        }
+    ],
+    "instructions": [
+        "Lay sliced cheese and ham on first piece of bread.",
+        "Make an indentation in the second piece of bread with a glass or bowl with round bottom and place on top of the slice with ham and cheese.",
+        "Cover the top of the slice of bread with the indentation with the mayonnaise or garlic, butter and honey.",
+        "Crack an egg in the indentation and season with salt and pepper.",
+        "Surround the egg with mozzarella.",
+        "Bake the sandwich in the oven. "
+    ]
+}
