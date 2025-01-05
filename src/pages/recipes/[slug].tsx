@@ -46,46 +46,6 @@ export default function Page({ recipe }: { recipe: Recipe }) {
 
         <PageContainer>
           <div className="py-8">
-            <SectionHeadline text="Category" />
-            <BadgeList
-              badges={[
-                {
-                  text: recipe.category,
-                  href: {
-                    pathname: "/categories/[slug]",
-                    query: { slug: recipe.category },
-                  },
-                  color: {
-                    bg: getCategoryColors(recipe.category as Category).bg,
-                    border: getCategoryColors(recipe.category as Category)
-                      .border,
-                    text: getCategoryColors(recipe.category as Category).text,
-                  },
-                },
-              ]}
-            />
-
-            {recipe.tags && (
-              <>
-                <SectionHeadline text="Tags" />
-                <BadgeList
-                  badges={recipe.tags.map((tag) => ({
-                    text: tag,
-                    href: {
-                      pathname: "/tags/[slug]",
-                      query: { slug: tag },
-                    },
-                    color: {
-                      bg: "bg-indigo-500",
-                      border: "border-indigo-500",
-                      text: "text-indigo-500",
-                    },
-                    size: "small",
-                  }))}
-                />
-              </>
-            )}
-
             {recipe.description && (
               <>
                 <SectionHeadline text="Description" />
@@ -148,6 +108,46 @@ export default function Page({ recipe }: { recipe: Recipe }) {
                     </li>
                   ))}
                 </ul>
+              </>
+            )}
+
+            <SectionHeadline text="Category" />
+            <BadgeList
+              badges={[
+                {
+                  text: recipe.category,
+                  href: {
+                    pathname: "/categories/[slug]",
+                    query: { slug: recipe.category },
+                  },
+                  color: {
+                    bg: getCategoryColors(recipe.category as Category).bg,
+                    border: getCategoryColors(recipe.category as Category)
+                      .border,
+                    text: getCategoryColors(recipe.category as Category).text,
+                  },
+                },
+              ]}
+            />
+
+            {recipe.tags && (
+              <>
+                <SectionHeadline text="Tags" />
+                <BadgeList
+                  badges={recipe.tags.map((tag) => ({
+                    text: tag,
+                    href: {
+                      pathname: "/tags/[slug]",
+                      query: { slug: tag },
+                    },
+                    color: {
+                      bg: "bg-indigo-500",
+                      border: "border-indigo-500",
+                      text: "text-indigo-500",
+                    },
+                    size: "small",
+                  }))}
+                />
               </>
             )}
           </div>

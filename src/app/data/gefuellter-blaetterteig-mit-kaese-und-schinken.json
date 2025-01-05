@@ -1,0 +1,72 @@
+{
+    "name": "Gefüllter Blätterteig mit Käse und Schinken",
+    "category": "snacks",
+    "locale": "de",
+    "images": [
+        {
+            "src": "/images/recipes/gefuellter-blaetterteig-mit-kaese-und-schinken.jpg",
+            "alt": "A golden brown puff pastry filled with melted cheese and ham"
+        }
+    ],
+    "links": [
+        "https://www.leckerschmecker.me/gefuellter-blaetterteig-mit-kaese-und-schinken-b-k-silvester/63743511327452"
+    ],
+    "tags": [
+        "savory"
+    ],
+    "prep_time": 10,
+    "cook_time": 20,
+    "servings": 24,
+    "ingredients": [
+        {
+            "quantity": 2,
+            "unit": "Rollen",
+            "name": "Blätterteig"
+        },
+        {
+            "quantity": 4,
+            "unit": "tablespoon",
+            "name": "Schmand"
+        },
+        {
+            "quantity": 1,
+            "name": "TK-Kräuter"
+        },
+        {
+            "quantity": 1,
+            "name": "salt"
+        },
+        {
+            "quantity": 1,
+            "name": "pepper"
+        },
+        {
+            "quantity": 1,
+            "unit": "gram",
+            "name": "Kochschinken"
+        },
+        {
+            "quantity": 1,
+            "unit": "g",
+            "name": "Gouda"
+        },
+        {
+            "quantity": 1,
+            "name": "Ei",
+            "notes": "verquirlt"
+        },
+        {
+            "quantity": 1,
+            "unit": "tablespoon",
+            "name": "Sesam"
+        }
+    ],
+    "instructions": [
+        "Heize den Backofen auf 190 °C Umluft vor.",
+        "Rolle die beiden Blätterteige aus und verstreiche den Schmand auf einem Teig. Streue die TK-Kräuter darauf und würze mit Salz und Pfeffer.",
+        "Belege den Blätterteig mit den restlichen Zutaten.",
+        "Zum Schluss legst du den zweiten Blätterteig obendrauf und schneidest den gefüllten Blätterteig mit einem Pizzaschneider oder einem scharfen Messer in mehrere kleine Stücke.",
+        "Bestreiche den Teig mit verquirlten Ei und Sesam.",
+        "Backe den gefüllten Blätterteig 20 Minuten."
+    ]
+}
