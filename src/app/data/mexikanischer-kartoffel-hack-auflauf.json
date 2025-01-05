@@ -1,0 +1,98 @@
+{
+    "name": "Mexikanischer Kartoffel-Hack-Auflauf",
+    "category": "mains",
+    "locale": "de",
+    "images": [
+        {
+            "src": "/images/recipes/mexikanischer-kartoffel-hack-auflauf.jpg",
+            "alt": "A Mexican potato casserole with ground meat, corn, and tomatoes"
+        }
+    ],
+    "links": [
+        "https://www.leckerschmecker.me/mexikanischer-kartoffel-hack-auflauf-a-o/63743511388260"
+    ],
+    "tags": [
+        "savory"
+    ],
+    "prep_time": 30,
+    "cook_time": 40,
+    "servings": 6,
+    "ingredients": [
+        {
+            "quantity": 1,
+            "unit": "kg",
+            "name": "Kartoffeln"
+        },
+        {
+            "quantity": 1,
+            "name": "Salz"
+        },
+        {
+            "quantity": 2,
+            "name": "Zwiebeln"
+        },
+        {
+            "quantity": 2,
+            "name": "Knoblauchzehen"
+        },
+        {
+            "quantity": 1,
+            "unit": "tablespoon",
+            "name": "Rapsöl"
+        },
+        {
+            "quantity": 600,
+            "unit": "g",
+            "name": "Rinderhackfleisch"
+        },
+        {
+            "quantity": 2,
+            "unit": "tablespoon",
+            "name": "Tomatenmark"
+        },
+        {
+            "quantity": 400,
+            "unit": "g",
+            "name": "Tomaten",
+            "notes": "eine dose"
+        },
+        {
+            "quantity": 400,
+            "unit": "g",
+            "name": "Kidneybohnen",
+            "notes": "eine dose"
+        },
+        {
+            "quantity": 1,
+            "unit": "kleine Dose",
+            "name": "Mais"
+        },
+        {
+            "quantity": 1,
+            "name": "Pfeffer",
+            "notes": "nach Geschmack"
+        },
+        {
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "name": "Kreuzkümmel"
+        },
+        {
+            "quantity": 1,
+            "name": "Chilipulver",
+            "notes": "nach Geschmack"
+        },
+        {
+            "quantity": 80,
+            "unit": "g",
+            "name": "Streukäse"
+        }
+    ],
+    "instructions": [
+        "Schäle die Kartoffeln und koche sie in Salzwasser gar. Lass sie kurz ausdampfen",
+        "Ziehe Zwiebeln und Knoblauch ab und hacke beides fein.",
+        "Erhitze etwas Öl in einer Pfanne und brate das Hackfleisch krümelig an. Gib dann Zwiebeln und Knoblauch hinzu und brate beides noch kurz mit. Rühre das Tomatenmark unter und gieße mit Tomaten auf.",
+        "Vermenge die Soße mit Bohnen und Mais und schmecke mit Salz, Pfeffer, Kreuzkümmel und Chili ab.",
+        "Schneide die Kartoffeln in Würfel und vermische alles in einer großen Auflaufform. Streue den Käse darüber und überbacke den Auflauf bei 180 °C Ober-/Unterhitze für etwa 40 Minuten. "
+    ]
+}
