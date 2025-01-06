@@ -1,0 +1,60 @@
+{
+    "name": "Feta-Röllchen",
+    "category": "sides",
+    "locale": "de",
+    "images": [
+        {
+            "src": "/images/recipes/feta-roellchen.jpg",
+            "alt": "A golden brown puff pastry filled with melted cheese and ham"
+        }
+    ],
+    "links": [
+        "https://www.leckerschmecker.me/feta-roellchen-a-v-gefuellt/63743511420236"
+    ],
+    "tags": [
+        "savory"
+    ],
+    "prep_time": 20,
+    "cook_time": 15,
+    "servings": 12,
+    "ingredients": [
+        {
+            "quantity": 10,
+            "unit": "Blätter",
+            "name": "Yufkateig",
+            "notes": "alternativ Filo- oder Strudelteig"
+        },
+        {
+            "quantity": 250,
+            "unit": "g",
+            "name": "Feta"
+        },
+        {
+            "quantity": 1,
+            "unit": "Bund",
+            "name": "Petersilie"
+        },
+        {
+            "quantity": 1,
+            "unit": "teaspoon",
+            "name": "Chilipulver"
+        },
+        {
+            "quantity": 1,
+            "name": "Sonnenblumenöl"
+        },
+        {
+            "quantity": 1,
+            "unit": "teaspoon",
+            "name": "Schwarzkümmelsamen",
+            "optional": true
+        }
+    ],
+    "instructions": [
+        "Schneide die einzelnen Teigblätter jeweils zu einem Dreieck.",
+        "Hacke Feta und Petersilie und mische beides in einer Schüssel mit Chilipulver.",
+        "Gib etwa 2 EL der Feta-Mischung der Länge nach auf die breite Seite des Teigdreiecks und rolle es auf. Befeuchte die Spitze des Dreiecks mit etwas Wasser, sodass sie besser festklebt. Verfahre so, bis alle Zutaten verbraucht sind.",
+        "Frittiere die Feta-Röllchen in heißem Sonnenblumenöl in einer Pfanne oder Fritteuse.",
+        "Bestreue sie mit etwas Schwarzkümmelsamen und serviere sie mit einem Knoblauchdip."
+    ]
+}

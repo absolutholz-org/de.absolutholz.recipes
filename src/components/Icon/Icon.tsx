@@ -72,5 +72,19 @@ export function Icon({ src, label }: IIcon): JSX.Element {
           ></path>
         </IconSvgBase>
       );
+    case "timer":
+      return (
+        <IconSvgBase label={label}>
+          {/* https://mui.com/material-ui/material-icons/?query=dessert&selected=TimerOutlined */}
+          <path d="M15 1H9v2h6zm-4 13h2V8h-2zm8.03-6.61 1.42-1.42c-.43-.51-.9-.99-1.41-1.41l-1.42 1.42C16.07 4.74 14.12 4 12 4c-4.97 0-9 4.03-9 9s4.02 9 9 9 9-4.03 9-9c0-2.12-.74-4.07-1.97-5.61M12 20c-3.87 0-7-3.13-7-7s3.13-7 7-7 7 3.13 7 7-3.13 7-7 7"></path>{" "}
+        </IconSvgBase>
+      );
+    case "flatware":
+      return (
+        <IconSvgBase label={label}>
+          {/* https://mui.com/material-ui/material-icons/?query=dessert&selected=Flatware */}
+          <path d="M16 7.08c0 1.77-.84 3.25-2 3.82V21h-2V10.9c-1.16-.57-2-2.05-2-3.82C10.01 4.83 11.35 3 13 3c1.66 0 3 1.83 3 4.08M17 3v18h2v-8h2V7c0-1.76-1.24-4-4-4M8.28 3c-.4 0-.72.32-.72.72V7h-.84V3.72C6.72 3.32 6.4 3 6 3s-.72.32-.72.72V7h-.84V3.72c0-.4-.32-.72-.72-.72S3 3.32 3 3.72V9c0 1.1.9 2 2 2v10h2V11c1.1 0 2-.9 2-2V3.72c0-.4-.32-.72-.72-.72"></path>{" "}
+        </IconSvgBase>
+      );
   }
 }

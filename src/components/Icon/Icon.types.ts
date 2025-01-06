@@ -1,10 +1,13 @@
+// https://mui.com/material-ui/material-icons/
 export type Icon =
   | "clock"
   | "utensils"
   | "home"
   | "drink"
   | "icecream"
-  | "burger";
+  | "burger"
+  | "timer"
+  | "flatware";
 
 export type IIcon = {
   src: Icon;

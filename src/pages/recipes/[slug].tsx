@@ -10,6 +10,7 @@ import { ParsedUrlQuery } from "querystring";
 import Markdown from "react-markdown";
 import { getCategoryColors } from "..";
 import { PageContainer } from "@/components/PageContainer";
+import { Icon } from "@/components/Icon";
 
 interface Params extends ParsedUrlQuery {
   slug: string;
@@ -50,6 +51,38 @@ export default function Page({ recipe }: { recipe: Recipe }) {
               <>
                 <SectionHeadline text="Description" />
                 <Markdown>{recipe.description}</Markdown>
+              </>
+            )}
+
+            {(recipe.prep_time || recipe.cook_time || recipe.servings) && (
+              <>
+                <SectionHeadline text="Meta" />
+
+                {recipe.prep_time && (
+                  <>
+                    <Icon src="timer" />
+                    <h3>Preparation Time</h3>
+                    <div>{recipe.prep_time}</div>
+                  </>
+                )}
+
+                {recipe.cook_time && (
+                  <>
+                    <h3>
+                      <Icon src="timer" />
+                      Cooking Time
+                    </h3>
+                    <div>{recipe.cook_time}</div>
+                  </>
+                )}
+
+                {recipe.servings && (
+                  <>
+                    <Icon src="flatware" />
+                    <h3>Servings</h3>
+                    <div>{recipe.servings}</div>
+                  </>
+                )}
               </>
             )}
 
